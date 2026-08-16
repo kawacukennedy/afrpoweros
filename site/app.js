@@ -95,7 +95,7 @@
   var offY = (SIZE - h * scale) / 2 + box.maxY * scale;
 
   function project(lon, lat) {
-    return { x: round(lon * scale + offX), y: round(-lat * scale + offY) };
+    return { x: Math.round(lon * scale + offX), y: Math.round(-lat * scale + offY) };
   }
 
   var svg = document.getElementById("mapSvg");
