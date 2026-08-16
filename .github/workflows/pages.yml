@@ -28,7 +28,7 @@ jobs:
         run: python3 scripts/build_site.py
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: site/dist
 
   deploy:
     needs: build

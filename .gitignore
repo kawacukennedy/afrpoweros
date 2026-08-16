@@ -43,3 +43,6 @@ out/
 
 # Local-only outreach drafts (never published)
 emails/
+
+# Site build output
+site/dist/
