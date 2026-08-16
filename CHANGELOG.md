@@ -22,4 +22,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `docs/` (data model, methodology, roadmap).
 - Static GitHub Pages map (`site/`): pure-SVG choropleth of African program
   status, hover tooltips, click-to-table; dataset inlined as static JS for
-  instant load; `scripts/build_site.py` regenerates the embedded dataset.
+  instant load; `scripts/build_site.py` regenerates the embedded dataset and
+  injects a content-hash cache-buster into asset URLs.
