@@ -1,0 +1,12 @@
+country,region,program_status,iaea_milestone_phase,capacity_gw_planned,first_grid_target_year,regulator,implementing_agency,research_reactor,confidence,last_verified
+Rwanda,East Africa,Preparing,2,,2030,Rwanda Atomic Energy Board (RAEB),"Rwanda Atomic Energy Board (RAEB) / Ministry of Infrastructure (MININFRA)",,Verified,2026-08-16
+Kenya,East Africa,Preparing,2,1.0,2034,Kenya Nuclear Regulatory Authority (KNRA),Nuclear Power and Energy Agency (NuPEA),,Verified,2026-08-16
+Ghana,West Africa,Preparing,2,1.0,2030,Nuclear Regulatory Authority (NRA),"Nuclear Power Ghana (NPG) / Ghana Atomic Energy Commission (GAEC)",GHARR-1,Verified,2026-08-16
+Egypt,North Africa,Under Construction,3,4.8,2028,Egyptian Nuclear and Radiological Regulatory Authority (ENRRA),Nuclear Power Plants Authority (NPPA),"ETRR-1 / ETRR-2",Verified,2026-08-16
+South Africa,Southern Africa,Operating,3,2.5,2032,National Nuclear Regulator (NNR),"Eskom (Koeberg) / Department of Mineral and Petroleum Resources / NNEECC",SAFARI-1,Verified,2026-08-16
+Uganda,East Africa,Preparing,2,8.4,2031,Atomic Energy Council (AEC),Ministry of Energy and Mineral Development,,Verified,2026-08-16
+Tanzania,East Africa,Preparing,2,,,Tanzania Atomic Energy Commission (TAEC),Ministry of Energy / TAEC,,Verified,2026-08-16
+Nigeria,West Africa,Preparing,2,4.0,,Nigerian Nuclear Regulatory Authority (NNRA),Nigeria Atomic Energy Commission (NAEC),NIRR-1,Verified,2026-08-16
+Zambia,Southern Africa,Exploring,1,1.0,,Radiation Protection Authority,Ministry of Energy / ZESCO,,Verified,2026-08-16
+Morocco,North Africa,Exploring,,,,"AMSSNuR (Agence Marocaine de Sûreté et de Sécurité Nucléaires et Radiologiques)",Ministry of Energy Transition / CNESTEN,CENM TRIGA Mark II,Verified,2026-08-16
+Algeria,North Africa,Exploring,,,,Commissariat à l'Énergie Atomique (COMENA),"Commissariat à l'Énergie Atomique (COMENA)","NUR / Es-Salam",Verified,2026-08-16

@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AfrPowerOS dataset",
+  "description": "Open, cited intelligence on civilian African nuclear and energy infrastructure programs.",
+  "type": "object",
+  "required": ["schema_version", "generated", "countries"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "type": "string" },
+    "generated": { "type": "string" },
+    "countries": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/country" }
+    }
+  },
+  "definitions": {
+    "country": {
+      "type": "object",
+      "required": [
+        "country",
+        "region",
+        "program_status",
+        "iaea_milestone_phase",
+        "commercial_reactors_operating",
+        "commercial_reactors_under_construction",
+        "capacity_gw_planned",
+        "first_grid_target_year",
+        "research_reactor",
+        "regulator",
+        "implementing_agency",
+        "vendors",
+        "agreements",
+        "electricity_access_pct",
+        "installed_capacity_mw",
+        "notes",
+        "key_events",
+        "sources",
+        "confidence",
+        "last_verified"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "country": { "type": "string", "minLength": 1 },
+        "region": {
+          "type": "string",
+          "enum": ["East Africa", "West Africa", "North Africa", "Central Africa", "Southern Africa"]
+        },
+        "program_status": {
+          "type": "string",
+          "enum": ["Operating", "Under Construction", "Announced", "Preparing", "Exploring", "None"]
+        },
+        "iaea_milestone_phase": { "type": ["integer", "null"], "minimum": 1, "maximum": 3 },
+        "commercial_reactors_operating": { "type": "integer", "minimum": 0 },
+        "commercial_reactors_under_construction": { "type": "integer", "minimum": 0 },
+        "capacity_gw_planned": { "type": ["number", "null"], "minimum": 0 },
+        "first_grid_target_year": { "type": ["integer", "null"], "minimum": 1990, "maximum": 2100 },
+        "research_reactor": { "type": ["string", "null"] },
+        "regulator": { "type": "string", "minLength": 1 },
+        "implementing_agency": { "type": "string", "minLength": 1 },
+        "vendors": { "type": "array", "items": { "type": "string" } },
+        "agreements": { "type": "array", "items": { "type": "string" } },
+        "electricity_access_pct": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+        "installed_capacity_mw": { "type": ["number", "null"], "minimum": 0 },
+        "notes": { "type": "string" },
+        "key_events": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["date", "title", "source"],
+            "additionalProperties": false,
+            "properties": {
+              "date": { "type": "string" },
+              "title": { "type": "string", "minLength": 1 },
+              "source": { "type": "string" }
+            }
+          }
+        },
+        "sources": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "confidence": { "type": "string", "enum": ["Verified", "Inference", "Speculation", "Unverified"] },
+        "last_verified": { "type": "string" }
+      }
+    }
+  }
+}

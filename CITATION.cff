@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use AfrPowerOS data in your work, please cite it as follows."
+title: "AfrPowerOS — African Nuclear & Energy Infrastructure Intelligence"
+abstract: >
+  Open, cited intelligence on civilian nuclear-energy and energy-infrastructure
+  programs across Africa: programme phase, IAEA milestone status, regulators,
+  implementing agencies, planned capacity, vendors, agreements, research
+  reactors, and key events.
+type: dataset
+license: CC-BY-4.0
+authors:
+  - family-names: "AfrPowerOS Contributors"
+    given-names: ""
+    website: "https://github.com/kawacukennedy/afrpoweros"
+date-released: "2026-08-16"
+keywords:
+  - nuclear energy
+  - Africa
+  - energy infrastructure
+  - IAEA milestones
+  - small modular reactors
+  - electricity access

@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-data:
+    name: Validate data & scripts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate dataset against schema, CSV consistency, and scripts
+        run: python3 scripts/validate.py
+      - name: JSON syntax check
+        run: |
+          python3 -m json.tool data/afrpoweros.json > /dev/null
+          python3 -m json.tool data/schema.json > /dev/null
+      - name: Example runs cleanly
+        run: python3 examples/quickstart.py

@@ -1,0 +1,454 @@
+{
+  "schema_version": "0.1.0",
+  "generated": "2026-08-16",
+  "countries": [
+    {
+      "country": "Rwanda",
+      "region": "East Africa",
+      "program_status": "Preparing",
+      "iaea_milestone_phase": 2,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": null,
+      "first_grid_target_year": 2030,
+      "research_reactor": null,
+      "regulator": "Rwanda Atomic Energy Board (RAEB)",
+      "implementing_agency": "Rwanda Atomic Energy Board (RAEB) / Ministry of Infrastructure (MININFRA)",
+      "vendors": ["Dual Fluid Energy", "Rosatom"],
+      "agreements": [
+        "Russia-Rwanda agreement on nuclear energy cooperation (2025)",
+        "Rwanda-Dual Fluid Energy agreement (2024)"
+      ],
+      "electricity_access_pct": 70.0,
+      "installed_capacity_mw": null,
+      "notes": "Advanced the furthest of the IAEA Phase 2 countries in East Africa. Completed IAEA INIR Phase 2 review with a follow-up mission (March 2026). Signed a phased roadmap with Russia (2025) targeting an initial nuclear phase by ~2030 and a first-of-kind Dual Fluid Energy reactor feasibility study due ~June 2026. No procurement decision made.",
+      "key_events": [
+        {
+          "date": "2026-03",
+          "title": "IAEA INIR Phase 2 follow-up mission conducted in Rwanda",
+          "source": "https://www.iaea.org/services/review-missions/inir"
+        },
+        {
+          "date": "2025-09",
+          "title": "IAEA updates on Rwanda's Phase 2 nuclear infrastructure development",
+          "source": "https://www.iaea.org"
+        },
+        {
+          "date": "2025",
+          "title": "Russia and Rwanda launch joint coordination committee; phased roadmap signed",
+          "source": "https://www.world-nuclear-news.org"
+        },
+        {
+          "date": "2024",
+          "title": "Rwanda and Dual Fluid Energy sign agreement for dual-fluid reactor demonstration",
+          "source": "https://www.world-nuclear-news.org"
+        }
+      ],
+      "sources": [
+        "https://www.iaea.org",
+        "https://www.iaea.org/services/review-missions/inir",
+        "https://www.world-nuclear-news.org",
+        "https://www.raeb.gov.rw",
+        "https://www.reg.rw"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Kenya",
+      "region": "East Africa",
+      "program_status": "Preparing",
+      "iaea_milestone_phase": 2,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": 1.0,
+      "first_grid_target_year": 2034,
+      "research_reactor": null,
+      "regulator": "Kenya Nuclear Regulatory Authority (KNRA)",
+      "implementing_agency": "Nuclear Power and Energy Agency (NuPEA)",
+      "vendors": [],
+      "agreements": [
+        "Bilateral nuclear cooperation agreements with IAEA, United States, South Korea, China and Russia"
+      ],
+      "electricity_access_pct": 75.0,
+      "installed_capacity_mw": 3300.0,
+      "notes": "Completed Phase 1 of the IAEA milestones (2018) and progressed site evaluation (IAEA SEED mission). At ICONE 2026 (Nairobi) NuPEA announced a target of first nuclear generation by 2034. Site and vendor selection not finalised.",
+      "key_events": [
+        {
+          "date": "2026-03",
+          "title": "Kenya announces target of nuclear generation on grid by 2034 (ICONE 2026, Nairobi)",
+          "source": "https://www.world-nuclear-news.org"
+        },
+        {
+          "date": "2018",
+          "title": "Kenya completes Phase 1 of IAEA nuclear power milestones",
+          "source": "https://www.iaea.org"
+        },
+        {
+          "date": "2024",
+          "title": "IAEA SEED (Site Evaluation) mission supports Kenyan site assessment",
+          "source": "https://www.iaea.org/services/review-missions/seed"
+        }
+      ],
+      "sources": [
+        "https://www.iaea.org",
+        "https://www.world-nuclear-news.org",
+        "https://nuclear.go.ke"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Ghana",
+      "region": "West Africa",
+      "program_status": "Preparing",
+      "iaea_milestone_phase": 2,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": 1.0,
+      "first_grid_target_year": 2030,
+      "research_reactor": "GHARR-1 (30 kW miniature neutron source reactor)",
+      "regulator": "Nuclear Regulatory Authority (NRA)",
+      "implementing_agency": "Nuclear Power Ghana (NPG) / Ghana Atomic Energy Commission (GAEC)",
+      "vendors": ["EDF (France)", "NuScale / GE-Hitachi / Regnum (United States)", "KEPCO/KHNP (South Korea)", "CNNC/CGN (China)", "Rosatom (Russia)", "Laurentis Energy Partners / Ontario Power Generation (Canada)"],
+      "agreements": [
+        "Vendor EOI finalists announced (March 2025) pending selection",
+        "IAEA Integrated Nuclear Infrastructure Review support"
+      ],
+      "electricity_access_pct": 85.0,
+      "installed_capacity_mw": 5400.0,
+      "notes": "Completed Phase 1 of IAEA milestones (2017); in Phase 2. Announced finalist vendors for a ~1 GW first plant in March 2025. Site evaluation ongoing. Africa's first research reactor operator (GHARR-1).",
+      "key_events": [
+        {
+          "date": "2025-03",
+          "title": "Ghana announces shortlist of vendors for first nuclear power plant",
+          "source": "https://www.world-nuclear-news.org"
+        },
+        {
+          "date": "2017",
+          "title": "Ghana completes Phase 1 of IAEA nuclear power milestones",
+          "source": "https://www.iaea.org"
+        },
+        {
+          "date": "2025",
+          "title": "IAEA SEED mission evaluates candidate sites in Ghana",
+          "source": "https://www.iaea.org/services/review-missions/seed"
+        }
+      ],
+      "sources": [
+        "https://www.iaea.org",
+        "https://www.world-nuclear-news.org",
+        "https://www.nra.org.gh"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Egypt",
+      "region": "North Africa",
+      "program_status": "Under Construction",
+      "iaea_milestone_phase": 3,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 4,
+      "capacity_gw_planned": 4.8,
+      "first_grid_target_year": 2028,
+      "research_reactor": "ETRR-1 (2 MW) and ETRR-2 (22 MW)",
+      "regulator": "Egyptian Nuclear and Radiological Regulatory Authority (ENRRA)",
+      "implementing_agency": "Nuclear Power Plants Authority (NPPA)",
+      "vendors": ["Rosatom"],
+      "agreements": [
+        "Russia-Egypt intergovernmental agreement (2015)",
+        "Russian state loan facility (~USD 25 billion)"
+      ],
+      "electricity_access_pct": 100.0,
+      "installed_capacity_mw": 59000.0,
+      "notes": "El Dabaa nuclear power plant: 4 x VVER-1200 under construction on the Mediterranean coast. First concrete July 2022; Unit 1 targeted for grid connection ~2028, all four units ~2030. Africa's first new nuclear build in decades.",
+      "key_events": [
+        {
+          "date": "2022-07",
+          "title": "First concrete poured at El Dabaa Unit 1",
+          "source": "https://www.world-nuclear-news.org"
+        },
+        {
+          "date": "2015",
+          "title": "Russia-Egypt agreement signed; El Dabaa construction launch",
+          "source": "https://www.world-nuclear-news.org"
+        }
+      ],
+      "sources": [
+        "https://www.world-nuclear-news.org",
+        "https://www.iaea.org",
+        "https://www.nppa.gov.eg"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "South Africa",
+      "region": "Southern Africa",
+      "program_status": "Operating",
+      "iaea_milestone_phase": 3,
+      "commercial_reactors_operating": 2,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": 2.5,
+      "first_grid_target_year": 2032,
+      "research_reactor": "SAFARI-1 (20 MW tank-in-pool)",
+      "regulator": "National Nuclear Regulator (NNR)",
+      "implementing_agency": "Eskom (Koeberg) / Department of Mineral and Petroleum Resources / NNEECC",
+      "vendors": [],
+      "agreements": [
+        "US-South Africa 123 Agreement",
+        "UK-South Africa civil nuclear MoU (2025)"
+      ],
+      "electricity_access_pct": 92.0,
+      "installed_capacity_mw": 47000.0,
+      "notes": "Only African country with an operating commercial nuclear plant (Koeberg, 1,860 MW net). Unit 2 licence extended to 2044 (May 2025). IRP 2025 (published 2025) targets 2,500 MW of new nuclear by 2032. Strong SME base and PBMR legacy. Procurement route not yet finalised.",
+      "key_events": [
+        {
+          "date": "2025-05",
+          "title": "Koeberg Unit 2 operating licence extended to 2044",
+          "source": "https://www.world-nuclear-news.org"
+        },
+        {
+          "date": "2025-09",
+          "title": "South Africa publishes IRP 2025 with 2,500 MW new nuclear by 2032",
+          "source": "https://www.world-nuclear-news.org"
+        },
+        {
+          "date": "2025",
+          "title": "UK-South Africa civil nuclear cooperation MoU signed",
+          "source": "https://www.world-nuclear-news.org"
+        }
+      ],
+      "sources": [
+        "https://www.world-nuclear-news.org",
+        "https://www.eskom.co.za",
+        "https://www.nnr.co.za",
+        "https://www.iaea.org"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Uganda",
+      "region": "East Africa",
+      "program_status": "Preparing",
+      "iaea_milestone_phase": 2,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": 8.4,
+      "first_grid_target_year": 2031,
+      "research_reactor": null,
+      "regulator": "Atomic Energy Council (AEC)",
+      "implementing_agency": "Ministry of Energy and Mineral Development",
+      "vendors": [],
+      "agreements": [
+        "Russia-Uganda civil nuclear cooperation MoU",
+        "IAEA country programme framework"
+      ],
+      "electricity_access_pct": 45.0,
+      "installed_capacity_mw": 1400.0,
+      "notes": "Vision 2040 targets 24 GW of nuclear by 2040; near-term plan ~8,400 MW by 2031 per government/IAEA reporting. Completed Phase 1 of IAEA milestones (2019); in Phase 2 with partner support. No vendor selected.",
+      "key_events": [
+        {
+          "date": "2023",
+          "title": "Uganda progresses to Phase 2 with IAEA and partner support for nuclear infrastructure",
+          "source": "https://www.iaea.org"
+        },
+        {
+          "date": "2019",
+          "title": "Uganda completes Phase 1 of IAEA nuclear power milestones",
+          "source": "https://www.iaea.org/services/review-missions/inir"
+        }
+      ],
+      "sources": [
+        "https://www.iaea.org",
+        "https://www.world-nuclear-news.org",
+        "https://www.energyandminerals.go.ug"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Tanzania",
+      "region": "East Africa",
+      "program_status": "Preparing",
+      "iaea_milestone_phase": 2,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": null,
+      "first_grid_target_year": null,
+      "research_reactor": null,
+      "regulator": "Tanzania Atomic Energy Commission (TAEC)",
+      "implementing_agency": "Ministry of Energy / TAEC",
+      "vendors": [],
+      "agreements": [
+        "IAEA technical cooperation programme"
+      ],
+      "electricity_access_pct": 45.0,
+      "installed_capacity_mw": 1600.0,
+      "notes": "Completed Phase 1 of IAEA milestones (2019); INIR Phase 2 review completed; Namtumbo identified as candidate site; reviewing the 19 IAEA infrastructure issues with a 2026 readiness assessment. No vendor selection.",
+      "key_events": [
+        {
+          "date": "2019",
+          "title": "Tanzania completes Phase 1 of IAEA nuclear power milestones",
+          "source": "https://www.iaea.org"
+        },
+        {
+          "date": "2023",
+          "title": "Tanzania completes IAEA INIR Phase 2 review mission",
+          "source": "https://www.iaea.org/services/review-missions/inir"
+        },
+        {
+          "date": "2026",
+          "title": "IAEA reviews Tanzania's nuclear infrastructure readiness",
+          "source": "https://www.iaea.org"
+        }
+      ],
+      "sources": [
+        "https://www.iaea.org",
+        "https://www.iaea.org/services/review-missions/inir",
+        "https://www.world-nuclear-news.org"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Nigeria",
+      "region": "West Africa",
+      "program_status": "Preparing",
+      "iaea_milestone_phase": 2,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": 4.0,
+      "first_grid_target_year": null,
+      "research_reactor": "NIRR-1 (miniature neutron source reactor)",
+      "regulator": "Nigerian Nuclear Regulatory Authority (NNRA)",
+      "implementing_agency": "Nigeria Atomic Energy Commission (NAEC)",
+      "vendors": [],
+      "agreements": [
+        "China-Nigeria nuclear cooperation MoU (2024)",
+        "IAEA technical cooperation programme"
+      ],
+      "electricity_access_pct": 60.0,
+      "installed_capacity_mw": 13000.0,
+      "notes": "Large grid with low access (~60%). Completed Phase 1 of IAEA milestones (2009); in Phase 2. Renewed SMR interest with vendors and IAEA in 2025; no final procurement decision.",
+      "key_events": [
+        {
+          "date": "2025",
+          "title": "Nigeria explores small modular reactor deployment with IAEA and vendors",
+          "source": "https://www.iaea.org"
+        },
+        {
+          "date": "2024",
+          "title": "China and Nigeria sign nuclear cooperation MoU",
+          "source": "https://www.world-nuclear-news.org"
+        }
+      ],
+      "sources": [
+        "https://www.iaea.org",
+        "https://www.world-nuclear-news.org",
+        "https://www.nnra.gov.ng"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Zambia",
+      "region": "Southern Africa",
+      "program_status": "Exploring",
+      "iaea_milestone_phase": 1,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": 1.0,
+      "first_grid_target_year": null,
+      "research_reactor": null,
+      "regulator": "Radiation Protection Authority",
+      "implementing_agency": "Ministry of Energy / ZESCO",
+      "vendors": [],
+      "agreements": [],
+      "electricity_access_pct": 80.0,
+      "installed_capacity_mw": 3000.0,
+      "notes": "Severe 2024/2025 drought exposed dependence on hydro; government announced exploration of ~1 GW of nuclear power for baseload. Early stage, milestone phase 1.",
+      "key_events": [
+        {
+          "date": "2025",
+          "title": "Zambia announces plan to evaluate ~1 GW nuclear power",
+          "source": "https://www.world-nuclear-news.org"
+        }
+      ],
+      "sources": [
+        "https://www.world-nuclear-news.org",
+        "https://www.iaea.org"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Morocco",
+      "region": "North Africa",
+      "program_status": "Exploring",
+      "iaea_milestone_phase": null,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": null,
+      "first_grid_target_year": null,
+      "research_reactor": "CENM TRIGA Mark II (2 MW)",
+      "regulator": "AMSSNuR (Agence Marocaine de Sûreté et de Sécurité Nucléaires et Radiologiques)",
+      "implementing_agency": "Ministry of Energy Transition / CNESTEN",
+      "vendors": [],
+      "agreements": [
+        "US-Morocco civil nuclear cooperation MoU (2025)"
+      ],
+      "electricity_access_pct": 100.0,
+      "installed_capacity_mw": 12000.0,
+      "notes": "Operating research reactor and desalination programme; nuclear power considered for the long-term energy mix alongside a large renewables build-out. No milestones-phase decision yet.",
+      "key_events": [
+        {
+          "date": "2025",
+          "title": "Morocco and the United States sign civil nuclear cooperation MoU",
+          "source": "https://www.world-nuclear-news.org"
+        }
+      ],
+      "sources": [
+        "https://www.world-nuclear-news.org",
+        "https://www.iaea.org"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Algeria",
+      "region": "North Africa",
+      "program_status": "Exploring",
+      "iaea_milestone_phase": null,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": null,
+      "first_grid_target_year": null,
+      "research_reactor": "NUR (1 MW pool) and Es-Salam (15 MW heavy-water)",
+      "regulator": "Commissariat à l'Énergie Atomique (COMENA)",
+      "implementing_agency": "Commissariat à l'Énergie Atomique (COMENA)",
+      "vendors": ["Rosatom (SMR feasibility discussions)"],
+      "agreements": [
+        "IAEA country programme framework"
+      ],
+      "electricity_access_pct": 100.0,
+      "installed_capacity_mw": 25000.0,
+      "notes": "Two operating research reactors (NUR, Es-Salam). Statements in late 2025 express interest in small modular reactors for power and desalination. No commercial-plant decision.",
+      "key_events": [
+        {
+          "date": "2025-12",
+          "title": "Algeria announces plans to develop SMRs for electricity and desalination",
+          "source": "https://www.iaea.org"
+        }
+      ],
+      "sources": [
+        "https://www.iaea.org",
+        "https://www.comena.dz"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    }
+  ]
+}

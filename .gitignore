@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# Environment / secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+!*.pem.example
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.code-workspace
+
+# Data artifacts (keep source-of-truth only)
+data/*.tmp
+data/.cache/
+
+# Build / tooling
+dist/
+build/
+*.log
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node (future web app)
+node_modules/
+.next/
+out/
