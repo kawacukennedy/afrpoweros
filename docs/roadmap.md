@@ -23,8 +23,8 @@ contributor interest and real-world events.
 
 ## Phase 3 — Product surface
 
-- [ ] Static web map (GitHub Pages / Netlify): countries colored by program
-      status, click-through to records.
+- [x] Static web map (GitHub Pages): countries colored by program status,
+      hover tooltips, click-to-table (live at kawacukennedy.github.io/afrpoweros).
 - [ ] Programmatic API (read-only) over the dataset.
 - [ ] Weekly refresh workflow that re-verifies `last_verified` ages and flags
       stale records.

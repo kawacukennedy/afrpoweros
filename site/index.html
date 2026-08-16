@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AfrPowerOS — African Nuclear &amp; Energy Infrastructure</title>
+  <meta name="description" content="Open, cited intelligence on civilian African nuclear and energy infrastructure programs.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="/">
+        <span class="brand-dot"></span>
+        <span>AfrPowerOS</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#map">Map</a>
+        <a href="#table">Countries</a>
+        <a href="#method">Method</a>
+        <a class="nav-cta" href="https://github.com/kawacukennedy/afrpoweros">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Open dataset · cited · evidence-first</p>
+      <h1>Africa's nuclear &amp; energy future, mapped.</h1>
+      <p class="hero-sub">
+        Every African country's civilian nuclear programme — status, milestones, regulators,
+        and sources — in one place. Built by a Rwandan student, free for everyone.
+      </p>
+      <div class="legend" id="legend"></div>
+      <p class="hero-meta" id="heroMeta"></p>
+    </section>
+
+    <section class="card" id="map">
+      <div class="map-wrap">
+        <svg id="mapSvg" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Map of African nuclear program status"></svg>
+        <div class="tooltip" id="tooltip" hidden></div>
+      </div>
+    </section>
+
+    <section class="table-section" id="table">
+      <h2>Country records</h2>
+      <div class="table-card">
+        <table>
+          <thead>
+            <tr>
+              <th>Country</th>
+              <th>Status</th>
+              <th>Phase</th>
+              <th>GW planned</th>
+              <th>Grid target</th>
+              <th>Regulator</th>
+              <th>Confidence</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="method" id="method">
+      <h2>Method</h2>
+      <p>
+        Every record carries a confidence label and source links. Nothing is invented — if we
+        can't verify it, we mark it <span class="tag tag-unverified">Unverified</span> or omit it.
+        See the <a href="https://github.com/kawacukennedy/afrpoweros/blob/main/docs/methodology.md">methodology</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>AfrPowerOS · MIT code · CC BY 4.0 data</p>
+    <p><a href="https://github.com/kawacukennedy/afrpoweros">github.com/kawacukennedy/afrpoweros</a></p>
+  </footer>
+
+  <script src="data/dataset.js" defer></script>
+  <script src="data/africa.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
