@@ -149,6 +149,32 @@ main { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
   color: var(--text-2);
 }
 
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  margin: 6px 0 14px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.stat-num {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: var(--text-2);
+}
+
 .card {
   background: var(--card);
   border-radius: var(--radius);
@@ -272,6 +298,42 @@ tbody tr.highlight { animation: flash 2s ease; }
 .method a { color: var(--pr); text-decoration: none; }
 .method a:hover { text-decoration: underline; }
 
+.contribute { max-width: 720px; margin: 0 auto 80px; }
+
+.contribute-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 36px;
+  text-align: center;
+}
+
+.contribute-card h2 { font-size: 26px; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 12px; }
+.contribute-card p { color: var(--text-2); font-size: 15px; margin-bottom: 24px; }
+
+.contribute-actions { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+
+.btn {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 980px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--text);
+  background: #f0f0f2;
+  border: 1px solid var(--line);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12); }
+
+.btn-primary {
+  background: var(--text);
+  color: #fff !important;
+  border-color: transparent;
+}
+
 .footer {
   text-align: center;
   padding: 40px 24px 56px;
@@ -287,6 +349,8 @@ tbody tr.highlight { animation: flash 2s ease; }
   .nav-links a { display: none; }
   .nav-links .nav-cta { display: inline-block; }
   .hero { padding: 48px 0 28px; }
+  .stats { gap: 20px; }
+  .contribute-card { padding: 24px 18px; }
   thead th:nth-child(6), tbody td:nth-child(6) { display: none; }
 }
 

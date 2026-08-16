@@ -30,7 +30,9 @@
   var NAME_ALIAS = {
     Tanzania: "United Republic of Tanzania",
     "Congo (Dem. Rep.)": "Dem. Rep. Congo",
-    "Côte d'Ivoire": "Côte d'Ivoire"
+    "Côte d'Ivoire": "Côte d'Ivoire",
+    "DR Congo": "Dem. Rep. Congo",
+    Eswatini: "eSwatini"
   };
 
   var byName = {};
@@ -215,4 +217,17 @@
   document.getElementById("heroMeta").textContent =
     dataset.countries.length + " countries · " +
     dataset.generated + " · every fact sourced and confidence-labelled";
+
+  var statCountries = document.getElementById("statCountries");
+  var statVerified = document.getElementById("statVerified");
+  var statActive = document.getElementById("statActive");
+  var verified = 0;
+  var active = 0;
+  dataset.countries.forEach(function (rec) {
+    if (rec.confidence === "Verified") verified++;
+    if (rec.program_status !== "None" && rec.program_status !== "Exploring") active++;
+  });
+  if (statCountries) statCountries.textContent = dataset.countries.length;
+  if (statVerified) statVerified.textContent = verified;
+  if (statActive) statActive.textContent = active;
 })();

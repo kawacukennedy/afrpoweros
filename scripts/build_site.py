@@ -23,6 +23,11 @@ def main():
     version = hashlib.sha256(raw.encode("utf-8")).hexdigest()[:8]
     n = len(dataset["countries"])
 
+    site_hash = hashlib.sha256(raw.encode("utf-8"))
+    for rel in ("app.js", "styles.css", "index.html", "data/africa.js"):
+        site_hash.update((SITE / rel).read_bytes())
+    version = site_hash.hexdigest()[:8]
+
     dataset_js = (
         "window.AFRPOWEROS = "
         + json.dumps(dataset, separators=(",", ":"), ensure_ascii=False)

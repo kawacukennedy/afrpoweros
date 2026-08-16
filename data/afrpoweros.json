@@ -449,6 +449,337 @@
       ],
       "confidence": "Verified",
       "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Ethiopia",
+      "region": "East Africa",
+      "program_status": "Exploring",
+      "iaea_milestone_phase": 1,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": null,
+      "first_grid_target_year": null,
+      "research_reactor": null,
+      "regulator": "Ethiopian Technology Authority (ETA)",
+      "implementing_agency": "Ethiopian Technology Authority (ETA)",
+      "vendors": [],
+      "agreements": [
+        "Ethiopia-Russia strategic roadmap for nuclear energy development (reported 2026)",
+        "IAEA technical cooperation programme"
+      ],
+      "electricity_access_pct": null,
+      "installed_capacity_mw": null,
+      "notes": "Formally notified the IAEA of its intent to use peaceful nuclear technology for power generation and is strengthening its regulatory and legal framework. The Ethiopian Technology Authority convened a stakeholder forum (Aug 2026) to review draft regulations for nuclear installations, with input from the US Nuclear Regulatory Commission and Russia's Rostechnadzor. Reported strategic roadmap with Russia (2026); reported programme vision of ~2 x 1,200 MWe reactors (2032-2034) not officially confirmed. No procurement decision.",
+      "key_events": [
+        {
+          "date": "2026-08",
+          "title": "Ethiopian Technology Authority convenes consultation on draft nuclear regulations",
+          "source": "https://www.ena.et/web/eng/w/eng_9339403"
+        },
+        {
+          "date": "2026-03",
+          "title": "Ethiopia and Russia report strategic roadmap for nuclear energy development",
+          "source": "https://africasustainabilitymatters.com/ethiopia-advances-civilian-nuclear-power-framework-as-addis-ababa-seeks-to-diversify-its-hydropower-heavy-electricity-system/"
+        }
+      ],
+      "sources": [
+        "https://www.ena.et/web/eng/w/eng_9339403",
+        "https://africasustainabilitymatters.com/ethiopia-advances-civilian-nuclear-power-framework-as-addis-ababa-seeks-to-diversify-its-hydropower-heavy-electricity-system/",
+        "https://eta.gov.et/"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Sudan",
+      "region": "North Africa",
+      "program_status": "Preparing",
+      "iaea_milestone_phase": 1,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": null,
+      "first_grid_target_year": null,
+      "research_reactor": null,
+      "regulator": "Sudanese Nuclear and Radiological Regulatory Authority (SNRRA)",
+      "implementing_agency": "Ministry of Energy and Petroleum (NEPIO)",
+      "vendors": [],
+      "agreements": [
+        "IAEA INIR Phase 1 mission (2018)",
+        "Comprehensive Safeguards Agreement",
+        "Convention on Physical Protection of Nuclear Material (CPPNM)",
+        "AFRA membership (2022)"
+      ],
+      "electricity_access_pct": null,
+      "installed_capacity_mw": null,
+      "notes": "Long-standing nuclear power ambition: NEPIO established 2010, pre-feasibility studies 2010-2013, 2013 decision to embark on a nuclear power programme, Nuclear and Radiological Regulatory Control Act (2017). IAEA INIR Phase 1 mission conducted Aug-Sep 2018 assessed infrastructure progress toward Milestone 1. Interest in SMRs as a fit for the national grid. No vendor or site selected.",
+      "key_events": [
+        {
+          "date": "2018-08",
+          "title": "IAEA INIR Phase 1 mission conducted in Sudan",
+          "source": "https://www.iaea.org/sites/default/files/documents/review-missions/inir-sudan-030918.pdf"
+        },
+        {
+          "date": "2017",
+          "title": "Sudan enacts Nuclear and Radiological Regulatory Control Act",
+          "source": "https://www.iaea.org/sites/default/files/documents/review-missions/inir-sudan-030918.pdf"
+        },
+        {
+          "date": "2013",
+          "title": "Government decides to embark on a nuclear power programme",
+          "source": "https://www.iaea.org/sites/default/files/documents/review-missions/inir-sudan-030918.pdf"
+        }
+      ],
+      "sources": [
+        "https://www.iaea.org/sites/default/files/documents/review-missions/inir-sudan-030918.pdf",
+        "https://www.nuclearbusiness-platform.com/videos/v/sudan-wants-nuclear-energy",
+        "https://ola.iaea.org/Applications/FactSheets/Country/Detail?code=SD"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Tunisia",
+      "region": "North Africa",
+      "program_status": "Exploring",
+      "iaea_milestone_phase": null,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": null,
+      "first_grid_target_year": null,
+      "research_reactor": null,
+      "regulator": "National Centre for Radiation Protection (CNRP)",
+      "implementing_agency": "STEG / CNSTN",
+      "vendors": [],
+      "agreements": [
+        "France-Tunisia cooperation agreement on peaceful use of nuclear energy"
+      ],
+      "electricity_access_pct": 96.0,
+      "installed_capacity_mw": null,
+      "notes": "Nuclear option studied since 1982. November 2006 presidential directive tasked STEG with a techno-economic feasibility study for an NPP; earlier CNSTN/STEG/SONED study (2000-2004, with French CEA and IAEA supervision) assessed nuclear power with water desalination and found it competitive at oil prices above ~USD 38/bbl. STEG prepared a strategic action plan on the IAEA Milestones Guideline, validated by IAEA experts for Phase 1 (April 2009). No decision to proceed; a new nuclear safety law with an independent regulator (ANSN/NCNS) has been drafted.",
+      "key_events": [
+        {
+          "date": "2006-11",
+          "title": "Presidential directive tasks STEG with NPP techno-economic feasibility study",
+          "source": "https://www-pub.iaea.org/MTCD/Publications/PDF/cnpp2017/countryprofiles/Tunisia/Tunisia.htm"
+        },
+        {
+          "date": "2004",
+          "title": "CNSTN/STEG/SONED nuclear desalination feasibility study completed with CEA and IAEA",
+          "source": "https://www-pub.iaea.org/MTCD/Publications/PDF/cnpp2017/countryprofiles/Tunisia/Tunisia.htm"
+        }
+      ],
+      "sources": [
+        "https://www-pub.iaea.org/MTCD/Publications/PDF/cnpp2017/countryprofiles/Tunisia/Tunisia.htm",
+        "https://www.iaea.org/sites/default/files/23/11/cns_national_report_2022_tunisia.pdf",
+        "https://inis.iaea.org/records/r6vtn-92347"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Zimbabwe",
+      "region": "Southern Africa",
+      "program_status": "Exploring",
+      "iaea_milestone_phase": null,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": null,
+      "first_grid_target_year": null,
+      "research_reactor": null,
+      "regulator": "Radiation Protection Authority of Zimbabwe (RPAZ)",
+      "implementing_agency": "Ministry of Energy and Power Development",
+      "vendors": ["KHNP (i-SMR evaluation MoU)"],
+      "agreements": [
+        "Zimbabwe-KHNP MoU on i-SMR deployment evaluation (2025)"
+      ],
+      "electricity_access_pct": null,
+      "installed_capacity_mw": null,
+      "notes": "Signed an MoU (Aug 2025) with South Korea's KHNP to evaluate deployment of the i-SMR small modular reactor, including a preliminary feasibility study by the Centre for Education, Innovation Research and Development. Energy minister statements (2026) suggest nuclear within a decade. Early stage; no IAEA milestone engagement reported.",
+      "key_events": [
+        {
+          "date": "2025-08",
+          "title": "Zimbabwe and KHNP sign MoU to evaluate i-SMR deployment",
+          "source": "https://www.world-nuclear-news.org/articles/zimbabwe-to-evaluate-deployment-of-korean-smr"
+        }
+      ],
+      "sources": [
+        "https://www.world-nuclear-news.org/articles/zimbabwe-to-evaluate-deployment-of-korean-smr",
+        "https://www.rpaz.co.zw/"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Senegal",
+      "region": "West Africa",
+      "program_status": "Exploring",
+      "iaea_milestone_phase": null,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": null,
+      "first_grid_target_year": null,
+      "research_reactor": null,
+      "regulator": "ARSN (Autorité Sénégalaise de Radioprotection, de Sûreté et de Sécurité Nucléaires)",
+      "implementing_agency": "Ministry of Energy, Petroleum and Mines (Energy Transition Directorate)",
+      "vendors": [],
+      "agreements": [
+        "Declaration to Triple Nuclear Energy by 2050 (COP30, 2025)"
+      ],
+      "electricity_access_pct": null,
+      "installed_capacity_mw": null,
+      "notes": "Joined the Declaration to Triple Nuclear Energy by 2050 at COP30 (2025) as its 33rd signatory. Under Vision Senegal 2050 the country plans a national nuclear deployment strategy (to be finalised early 2026), SMR preparations, and a research reactor feasibility study beginning late 2026. A nuclear department was created within the Energy Transition Directorate. Nuclear explored since 2012. No reactor procurement decision.",
+      "key_events": [
+        {
+          "date": "2025-11",
+          "title": "Senegal signs Declaration to Triple Nuclear Energy by 2050 at COP30",
+          "source": "https://world-nuclear.org/net-zero-nuclear/interviews/interview-at-cop30-yaye-catherine-diop-director-of-energy-transition-ministry-of-energy-petroleum-and-mines-senegal"
+        }
+      ],
+      "sources": [
+        "https://world-nuclear.org/net-zero-nuclear/interviews/interview-at-cop30-yaye-catherine-diop-director-of-energy-transition-ministry-of-energy-petroleum-and-mines-senegal",
+        "https://arsn.sn/larsn/"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Mali",
+      "region": "West Africa",
+      "program_status": "Exploring",
+      "iaea_milestone_phase": null,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": null,
+      "first_grid_target_year": null,
+      "research_reactor": null,
+      "regulator": "Agence Malienne de Radioprotection (AMARAP)",
+      "implementing_agency": "Ministry of Energy and Water Resources",
+      "vendors": [],
+      "agreements": [
+        "Russia-Mali intergovernmental agreement on peaceful use of atomic energy (2025)"
+      ],
+      "electricity_access_pct": null,
+      "installed_capacity_mw": null,
+      "notes": "Signed an intergovernmental agreement with Russia on the peaceful use of atomic energy (June 2025) covering nuclear infrastructure, radiation safety, radioisotopes and training. A Russian-designed low-power nuclear plant has been discussed as a strategic project. AMARAP (created 2002) is the national radiation protection regulator. No power programme decision.",
+      "key_events": [
+        {
+          "date": "2025-06",
+          "title": "Russia and Mali sign intergovernmental nuclear cooperation agreement",
+          "source": "https://www.world-nuclear-news.org/articles/mali-and-russia-sign-agreement-on-peaceful-use-of-nuclear-energy"
+        }
+      ],
+      "sources": [
+        "https://www.world-nuclear-news.org/articles/mali-and-russia-sign-agreement-on-peaceful-use-of-nuclear-energy",
+        "https://www.reuters.com/world/africa/russia-mali-sign-trade-deals-eye-nuclear-energy-cooperation-2025-06-23/",
+        "https://www.iaea.org/sites/default/files/23/11/mali_cns_national_report_joint_8th_and_9th_rm.pdf"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Niger",
+      "region": "West Africa",
+      "program_status": "Exploring",
+      "iaea_milestone_phase": null,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": null,
+      "first_grid_target_year": null,
+      "research_reactor": null,
+      "regulator": "Autorité de Régulation et de Sûreté Nucléaires (ARSN)",
+      "implementing_agency": "Ministry of Energy",
+      "vendors": [],
+      "agreements": [
+        "Russia-Niger MoU on nuclear energy cooperation (2025)"
+      ],
+      "electricity_access_pct": null,
+      "installed_capacity_mw": null,
+      "notes": "Major uranium producer. Signed an MoU with Russia's Rosatom (July 2025) to cooperate on peaceful use of nuclear energy, including power generation and nuclear medicine, and on joint training. The ARSN was created by law in 2016 as the nuclear safety and security regulator. No power programme decision.",
+      "key_events": [
+        {
+          "date": "2025-07",
+          "title": "Russia and Niger sign MoU on nuclear energy cooperation",
+          "source": "https://world-nuclear-news.org/articles/russia-niger-mou-on-nuclear-energy-cooperation"
+        }
+      ],
+      "sources": [
+        "https://world-nuclear-news.org/articles/russia-niger-mou-on-nuclear-energy-cooperation",
+        "https://www.iaea.org/sites/default/files/2025-08/niger-national-report-8rm.pdf"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Eswatini",
+      "region": "Southern Africa",
+      "program_status": "Exploring",
+      "iaea_milestone_phase": null,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": null,
+      "first_grid_target_year": null,
+      "research_reactor": null,
+      "regulator": "Ministry of Tourism and Environmental Affairs (nuclear regulatory authority being established)",
+      "implementing_agency": "Ministry of Natural Resources and Energy",
+      "vendors": [],
+      "agreements": [
+        "IAEA Country Programme Framework 2024-2029"
+      ],
+      "electricity_access_pct": null,
+      "installed_capacity_mw": null,
+      "notes": "Passed the Nuclear Radiation Safety Act (Dec 2025) and is finalising implementing regulations (2026), including establishment of a dedicated nuclear radiation regulatory authority. IAEA Country Programme Framework 2024-2029 covers nuclear safety, food security, health, water and energy planning. Heavily dependent on electricity imports from South Africa. No power programme decision.",
+      "key_events": [
+        {
+          "date": "2024-08",
+          "title": "Eswatini launches IAEA Country Programme Framework 2024-2029",
+          "source": "https://www.world-nuclear-news.org/Articles/Eswatini-launches-nuclear-programme-framework"
+        },
+        {
+          "date": "2025-12",
+          "title": "Eswatini passes Nuclear Radiation Safety Act",
+          "source": "https://swazi24.com/47885/news/energy/eswatini-validates-nuclear-and-radiation-safety-regulations/"
+        }
+      ],
+      "sources": [
+        "https://www.world-nuclear-news.org/Articles/Eswatini-launches-nuclear-programme-framework",
+        "https://swazi24.com/47885/news/energy/eswatini-validates-nuclear-and-radiation-safety-regulations/",
+        "https://independentnews.co.sz/46571/business/eswatini-moves-to-fast-track-nuclear-safety-law-through-new-regulations/"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "country": "DR Congo",
+      "region": "Central Africa",
+      "program_status": "None",
+      "iaea_milestone_phase": null,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": null,
+      "first_grid_target_year": null,
+      "research_reactor": "TRICO-II (research reactor, restart project at CREN-K, Kinshasa)",
+      "regulator": "Comité National de Protection contre les Rayonnements Ionisants (CNPRI)",
+      "implementing_agency": "Ministry of Scientific Research and Technological Innovation / CREN-K",
+      "vendors": [],
+      "agreements": [
+        "IAEA technical cooperation project COD1014 (TRICO-II restart)"
+      ],
+      "electricity_access_pct": null,
+      "installed_capacity_mw": null,
+      "notes": "No commercial nuclear power programme. IAEA technical cooperation project COD1014 (approved Jan 2026) supports restarting the TRICO-II research reactor at CREN-K in Kinshasa. Nuclear applications focus on research, health, agriculture and mining. CNPRI is the national regulator (created under Law 017/2002).",
+      "key_events": [
+        {
+          "date": "2026-01",
+          "title": "IAEA approves TC project COD1014 to restart the TRICO-II research reactor",
+          "source": "https://www.iaea.org/projects/tc/cod1014"
+        }
+      ],
+      "sources": [
+        "https://www.iaea.org/projects/tc/cod1014",
+        "https://cnpri.cd/documents-officiels/"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-08-16"
     }
   ]
 }

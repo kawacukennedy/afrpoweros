@@ -24,3 +24,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   status, hover tooltips, click-to-table; dataset inlined as static JS for
   instant load; `scripts/build_site.py` regenerates the embedded dataset and
   injects a content-hash cache-buster into asset URLs.
+- Expanded dataset to 20 countries: added Ethiopia, Sudan, Tunisia, Zimbabwe,
+  Senegal, Mali, Niger, Eswatini and DR Congo (all `Verified`, with IAEA,
+  government and industry sources).
+- Site homepage: live stats row (countries, verified records, active
+  programmes) and a "Contribute" call-to-action section with links to issues
+  and the contribution guide.
+- `scripts/build_site.py`: version hash now includes site sources
+  (`app.js`, `styles.css`, `index.html`, `data/africa.js`) so asset URLs
+  rotate whenever either the dataset or the site code changes.

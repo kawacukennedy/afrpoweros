@@ -3,7 +3,7 @@
 ![CI](https://github.com/kawacukennedy/afrpoweros/actions/workflows/ci.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC%20BY%204.0-lightgrey.svg)
-![Countries: 11](https://img.shields.io/badge/Countries-11-orange.svg)
+![Countries: 20](https://img.shields.io/badge/Countries-20-orange.svg)
 [![Live map](https://img.shields.io/badge/Live%20map-GitHub%20Pages-0a84ff)](https://kawacukennedy.github.io/afrpoweros/)
 
 **Open, cited intelligence on African nuclear & energy infrastructure programs.**
@@ -20,7 +20,7 @@ The nuclear/energy information gap in Africa is real: announcements are scattere
 
 - ~600 million people in sub-Saharan Africa lack electricity (World Bank/IMF).
 - Africa hosts <2% of global data-center capacity; power is the binding constraint on AI infrastructure (IMF AI Preparedness Index; Microsoft–G42 Kenya project stalling on power).
-- Only one African country operates a commercial nuclear plant (South Africa). Egypt is building; Ghana, Kenya, Uganda, Tanzania, Nigeria, Zambia, Rwanda and Algeria are in IAEA "milestones" preparation.
+- Only one African country operates a commercial nuclear plant (South Africa). Egypt is building; a growing group of countries are in IAEA "milestones" preparation or active exploration (Ghana, Kenya, Uganda, Tanzania, Nigeria, Rwanda, Sudan, Zambia, Ethiopia and others).
 
 ## Data
 

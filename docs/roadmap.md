@@ -8,6 +8,8 @@ contributor interest and real-world events.
 - [x] Repository skeleton, governance, CI, validator.
 - [x] Dataset v0.1: 11 countries (Rwanda, Kenya, Ghana, Egypt, South Africa,
       Uganda, Tanzania, Nigeria, Zambia, Morocco, Algeria).
+- [x] Dataset v0.2: expanded to 20 countries (added Ethiopia, Sudan, Tunisia,
+      Zimbabwe, Senegal, Mali, Niger, Eswatini, DR Congo).
 - [ ] Coverage of all African countries with any nuclear/energy program
       (target: every IAEA member state with a program; explicit `None` entries
       for the rest of the continent).
