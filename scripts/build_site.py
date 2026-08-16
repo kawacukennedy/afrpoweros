@@ -24,7 +24,7 @@ def main():
     n = len(dataset["countries"])
 
     site_hash = hashlib.sha256(raw.encode("utf-8"))
-    for rel in ("app.js", "styles.css", "index.html", "data/africa.js"):
+    for rel in ("app.js", "styles.css", "index.html", "data/africa.js", "newsletter.html"):
         site_hash.update((SITE / rel).read_bytes())
     version = site_hash.hexdigest()[:8]
 
@@ -57,6 +57,26 @@ def main():
     html = html.replace("data/africa.js?v=__VER__", renamed["data/africa.js"])
     html = html.replace("app.js?v=__VER__", renamed["app.js"])
     (DIST / "index.html").write_text(html, encoding="utf-8")
+
+    for rel in ("newsletter.html",):
+        src = SITE / rel
+        if not src.exists():
+            continue
+        text = src.read_text(encoding="utf-8")
+        text = text.replace("styles.css?v=__VER__", renamed["styles.css"])
+        text = text.replace("data/dataset.js?v=__VER__", renamed["data/dataset.js"])
+        text = text.replace("data/africa.js?v=__VER__", renamed["data/africa.js"])
+        text = text.replace("app.js?v=__VER__", renamed["app.js"])
+        dst = DIST / rel
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        dst.write_text(text, encoding="utf-8")
+
+    for src in (SITE / "newsletter").glob("*.html"):
+        text = src.read_text(encoding="utf-8")
+        text = text.replace("styles.css?v=__VER__", renamed["styles.css"])
+        dst = DIST / "newsletter" / src.name
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        dst.write_text(text, encoding="utf-8")
 
     print(f"build: wrote {DIST} ({n} countries, ver {version})")
     for name in sorted(renamed.values()):

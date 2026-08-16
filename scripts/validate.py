@@ -84,6 +84,13 @@ def check_string(value, field, country):
         fail(f"{country}: {field} must be a non-empty string")
 
 
+def check_no_markup(value, field, country):
+    if not isinstance(value, str):
+        return
+    if "<" in value or ">" in value:
+        fail(f"{country}: {field} must not contain markup characters < or >")
+
+
 def check_string_list(value, field, country, min_items=0):
     if not isinstance(value, list):
         fail(f"{country}: {field} must be a list")
@@ -167,6 +174,12 @@ def main():
         check_string_list(record.get("vendors"), "vendors", country)
         check_string_list(record.get("agreements"), "agreements", country)
         check_string_list(record.get("sources"), "sources", country, min_items=1)
+
+        for field in ("country", "regulator", "implementing_agency", "research_reactor", "notes"):
+            check_no_markup(record.get(field), field, country)
+        for event in record.get("key_events", []):
+            if isinstance(event, dict):
+                check_no_markup(event.get("title"), "key_event title", country)
 
         if not record.get("sources"):
             fail(f"{country}: must have at least one source")

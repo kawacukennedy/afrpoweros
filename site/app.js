@@ -27,6 +27,12 @@
     None: "#8e8e93"
   };
 
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
   var NAME_ALIAS = {
     Tanzania: "United Republic of Tanzania",
     "Congo (Dem. Rep.)": "Dem. Rep. Congo",
@@ -145,15 +151,15 @@
   function tooltipHTML(f) {
     var rec = recFor(f);
     if (!rec) {
-      return "<h4>" + f.name + "</h4><p>No record yet — contribute one.</p>";
+      return "<h4>" + esc(f.name) + "</h4><p>No record yet — contribute one.</p>";
     }
     var lines = [];
-    lines.push("<strong>" + rec.program_status + "</strong>");
-    if (rec.iaea_milestone_phase) lines.push("IAEA Phase " + rec.iaea_milestone_phase);
-    if (rec.capacity_gw_planned) lines.push(rec.capacity_gw_planned + " GW planned");
-    if (rec.first_grid_target_year) lines.push("Grid ~" + rec.first_grid_target_year);
-    lines.push(rec.confidence + " · " + rec.last_verified);
-    return "<h4>" + rec.country + "</h4><p>" + lines.join(" · ") + "</p>";
+    lines.push("<strong>" + esc(rec.program_status) + "</strong>");
+    if (rec.iaea_milestone_phase) lines.push("IAEA Phase " + esc(rec.iaea_milestone_phase));
+    if (rec.capacity_gw_planned) lines.push(esc(rec.capacity_gw_planned) + " GW planned");
+    if (rec.first_grid_target_year) lines.push("Grid ~" + esc(rec.first_grid_target_year));
+    lines.push(esc(rec.confidence) + " · " + esc(rec.last_verified));
+    return "<h4>" + esc(rec.country) + "</h4><p>" + lines.join(" · ") + "</p>";
   }
 
   svg.addEventListener("mousemove", function (e) {
@@ -201,15 +207,15 @@
     .sort(function (a, b) { return a.country.localeCompare(b.country); })
     .forEach(function (rec) {
       tpl.innerHTML =
-        '<tr id="row-' + rec.country.replace(/\s+/g, "-") + '">' +
-        "<td><strong>" + rec.country + "</strong></td>" +
+        '<tr id="row-' + esc(rec.country.replace(/\s+/g, "-")) + '">' +
+        "<td><strong>" + esc(rec.country) + "</strong></td>" +
         '<td><span class="tag" style="background:' + STATUS_COLOR[rec.program_status] + '">' +
         STATUS_LABEL[rec.program_status] + "</span></td>" +
-        "<td>" + (rec.iaea_milestone_phase || "—") + "</td>" +
-        "<td>" + (rec.capacity_gw_planned != null ? rec.capacity_gw_planned + " GW" : "—") + "</td>" +
-        "<td>" + (rec.first_grid_target_year || "—") + "</td>" +
-        "<td>" + rec.regulator + "</td>" +
-        '<td><span class="tag tag-unverified">' + rec.confidence + "</span></td>" +
+        "<td>" + esc(rec.iaea_milestone_phase || "—") + "</td>" +
+        "<td>" + esc(rec.capacity_gw_planned != null ? rec.capacity_gw_planned + " GW" : "—") + "</td>" +
+        "<td>" + esc(rec.first_grid_target_year || "—") + "</td>" +
+        "<td>" + esc(rec.regulator) + "</td>" +
+        '<td><span class="tag tag-unverified">' + esc(rec.confidence) + "</span></td>" +
         "</tr>";
       tableBody.appendChild(tpl.content.firstChild);
     });

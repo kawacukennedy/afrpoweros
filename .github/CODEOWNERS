@@ -1,1 +1,9 @@
+# Every change needs the maintainer's review.
+# Path rules keep the guard rails (data, validators, workflows) explicitly owned.
+
 * @kawacukennedy
+
+/data/ @kawacukennedy
+/scripts/ @kawacukennedy
+/site/ @kawacukennedy
+/.github/ @kawacukennedy

@@ -33,3 +33,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `scripts/build_site.py`: version hash now includes site sources
   (`app.js`, `styles.css`, `index.html`, `data/africa.js`) so asset URLs
   rotate whenever either the dataset or the site code changes.
+- Security hardening: all dataset-derived strings are HTML-escaped before
+  being rendered by `site/app.js`, and `scripts/validate.py` now rejects
+  markup characters (`<`, `>`) in string fields so a compromised data PR
+  cannot inject script into the live site.
+- `CODEOWNERS`: explicit path rules for `/data/`, `/scripts/`, `/site/` and
+  `/.github/` so guard-rail changes always require maintainer review.
+- Free weekly newsletter: `/newsletter` page with Buttondown subscribe form
+  (free tier, no watermarks) and a public issue archive on GitHub Pages.
+  Homepage and footer link to it; `scripts/build_site.py` copies and
+  cache-busts newsletter pages. Issue 001 published.
+- Fully automated newsletter pipeline: `scripts/newsletter.py` generates a
+  weekly digest from the dataset and sends it via the Buttondown API
+  (`scripts/newsletter.py --draft` to stage, `--send` to publish); the
+  `newsletter` GitHub Actions workflow sends every Tuesday at 09:00 UTC and on
+  manual dispatch. Subscribe forms use the real Buttondown username `kawacu`;
+  the newsletter page links to the canonical live archive.

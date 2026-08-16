@@ -1,0 +1,26 @@
+name: newsletter
+
+on:
+  schedule:
+    - cron: "0 9 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+      - name: Validate dataset
+        run: python3 scripts/validate.py
+      - name: Generate and send weekly issue
+        env:
+          BUTTONDOWN_API_TOKEN: ${{ secrets.BUTTONDOWN_API_TOKEN }}
+        run: python3 scripts/newsletter.py --send
