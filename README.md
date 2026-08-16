@@ -73,6 +73,11 @@ python3 examples/quickstart.py
 
 See [`docs/roadmap.md`](docs/roadmap.md). Near-term: expand country coverage, add an "IAEA 19 infrastructure issues" readiness tracker per country, and a live web map.
 
+## Newsletter
+
+Get the free weekly briefing — new records, corrections, and the wider African
+energy picture, all sourced: **[newsletter.html](site/newsletter.html)**.
+
 ## Contributing
 
 Read [`CONTRIBUTING.md`](CONTRIBUTING.md) first. Data corrections, new countries, and methodology improvements are especially welcome. All contributions must include sources.

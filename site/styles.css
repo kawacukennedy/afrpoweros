@@ -334,6 +334,71 @@ tbody tr.highlight { animation: flash 2s ease; }
   border-color: transparent;
 }
 
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 10px 16px;
+  border-radius: 980px;
+  border: 1px solid var(--line);
+  font-size: 14px;
+  font-family: inherit;
+  background: var(--card);
+  min-width: 260px;
+  color: var(--text);
+}
+
+.newsletter-form input[type="email"]:focus {
+  outline: none;
+  border-color: var(--pr);
+}
+
+.newsletter-form button { border: none; cursor: pointer; }
+
+.newsletter-note { color: var(--text-2); font-size: 13px; margin-top: 14px; }
+
+.newsletter-archive {
+  max-width: 640px;
+  margin: 0 auto 80px;
+  padding: 32px 36px;
+}
+
+.newsletter-archive h2 { font-size: 22px; font-weight: 700; margin-bottom: 16px; }
+
+.archive-list { list-style: none; }
+
+.archive-list li { padding: 10px 0; border-bottom: 1px solid var(--line); }
+
+.archive-list a { color: var(--text); text-decoration: none; font-weight: 500; }
+.archive-list a:hover { color: var(--pr); }
+
+.issue {
+  max-width: 640px;
+  margin: 0 auto 80px;
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 48px;
+}
+
+.issue h1 { font-size: 32px; font-weight: 700; letter-spacing: -0.01em; margin: 4px 0 20px; }
+.issue h2 { font-size: 20px; font-weight: 700; margin: 28px 0 10px; }
+.issue p { color: var(--text-2); font-size: 15px; margin-bottom: 14px; }
+.issue ul { color: var(--text-2); font-size: 15px; margin: 0 0 14px 20px; }
+.issue li { margin-bottom: 6px; }
+.issue a { color: var(--pr); text-decoration: none; }
+.issue .newsletter-form { justify-content: flex-start; margin-top: 24px; }
+
+@media (max-width: 720px) {
+  .issue { padding: 28px 20px; }
+  .newsletter-archive { padding: 24px 20px; }
+}
+
 .footer {
   text-align: center;
   padding: 40px 24px 56px;
