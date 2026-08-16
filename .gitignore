@@ -40,3 +40,6 @@ htmlcov/
 node_modules/
 .next/
 out/
+
+# Local-only outreach drafts (never published)
+emails/
