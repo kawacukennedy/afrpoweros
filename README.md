@@ -1,5 +1,10 @@
 # AfrPowerOS
 
+![CI](https://github.com/kawacukennedy/afrpoweros/actions/workflows/ci.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC%20BY%204.0-lightgrey.svg)
+![Countries: 11](https://img.shields.io/badge/Countries-11-orange.svg)
+
 **Open, cited intelligence on African nuclear & energy infrastructure programs.**
 
 AfrPowerOS tracks every African country's civilian nuclear-energy programme — programme phase, IAEA milestone status, regulator, implementing agency, planned capacity, vendors, agreements, research reactors, and key events — as a free, machine-readable, fully sourced dataset.
