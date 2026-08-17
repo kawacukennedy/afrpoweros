@@ -1,5 +1,7 @@
 # AfrPowerOS
 
+![AfrPowerOS interactive map](site/map-screenshot.png)
+
 ![CI](https://github.com/kawacukennedy/afrpoweros/actions/workflows/ci.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC%20BY%204.0-lightgrey.svg)
