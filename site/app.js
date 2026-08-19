@@ -44,7 +44,7 @@
   var byName = {};
   dataset.countries.forEach(function (rec) {
     byName[rec.country] = rec;
-    byName[NAME_ALIAS[rec.country]] = rec;
+    if (NAME_ALIAS[rec.country]) byName[NAME_ALIAS[rec.country]] = rec;
   });
 
   function bbox(features) {
@@ -113,6 +113,10 @@
     return byName[f.name];
   }
 
+  function recForEl(el) {
+    return byName[el.getAttribute("data-name")];
+  }
+
   function fillFor(f) {
     var rec = recFor(f);
     if (!rec) return "#d2d2d7";
@@ -148,10 +152,11 @@
     tooltip.hidden = true;
   }
 
-  function tooltipHTML(f) {
-    var rec = recFor(f);
+  function tooltipHTML(el) {
+    var name = el.getAttribute("data-name");
+    var rec = recForEl(el);
     if (!rec) {
-      return "<h4>" + esc(f.name) + "</h4><p>No record yet — contribute one.</p>";
+      return "<h4>" + esc(name) + "</h4><p>No record yet — contribute one.</p>";
     }
     var lines = [];
     lines.push("<strong>" + esc(rec.program_status) + "</strong>");
