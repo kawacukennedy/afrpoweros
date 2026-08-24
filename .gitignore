@@ -43,6 +43,11 @@ out/
 
 # Local-only outreach drafts (never published)
 emails/
+partnership-outreach-emails.md
+monetization-plan.md
+partner-proposal.md
+scholarship-tracker.md
+emails-cmu-africa.md
 
 # Site build output
 site/dist/

@@ -18,6 +18,15 @@
     None: "None"
   };
 
+  var STATUS_DESC = {
+    Operating: "Commercial reactor(s) generating electricity",
+    "Under Construction": "Reactor(s) being built, not yet operational",
+    Announced: "Government has formally announced nuclear plans",
+    Preparing: "Infrastructure development before procurement",
+    Exploring: "Early-stage assessment, no commitment yet",
+    None: "No known civilian nuclear program"
+  };
+
   var STATUS_COLOR = {
     Operating: "#34c759",
     "Under Construction": "#ff9f0a",
@@ -25,6 +34,12 @@
     Preparing: "#0a84ff",
     Exploring: "#bf5af2",
     None: "#8e8e93"
+  };
+
+  var MILESTONE_DESC = {
+    1: "Ready to make a knowledgeable commitment to nuclear power",
+    2: "Ready to invite bids / negotiate a contract",
+    3: "Ready to operate the first nuclear power plant"
   };
 
   function esc(s) {
@@ -159,12 +174,19 @@
       return "<h4>" + esc(name) + "</h4><p>No record yet — contribute one.</p>";
     }
     var lines = [];
-    lines.push("<strong>" + esc(rec.program_status) + "</strong>");
-    if (rec.iaea_milestone_phase) lines.push("IAEA Phase " + esc(rec.iaea_milestone_phase));
+    lines.push("<strong>" + esc(rec.program_status) + "</strong> — " + esc(STATUS_DESC[rec.program_status] || ""));
+    if (rec.iaea_milestone_phase) {
+      var phaseNum = rec.iaea_milestone_phase;
+      lines.push("IAEA Phase " + esc(phaseNum) + ": " + esc(MILESTONE_DESC[phaseNum] || ""));
+    }
     if (rec.capacity_gw_planned) lines.push(esc(rec.capacity_gw_planned) + " GW planned");
     if (rec.first_grid_target_year) lines.push("Grid ~" + esc(rec.first_grid_target_year));
     lines.push(esc(rec.confidence) + " · " + esc(rec.last_verified));
-    return "<h4>" + esc(rec.country) + "</h4><p>" + lines.join(" · ") + "</p>";
+    var sourceLink = "";
+    if (rec.sources && rec.sources.length > 0) {
+      sourceLink = '<p class="tooltip-source">Source: <a href="' + esc(rec.sources[0]) + '" target="_blank" rel="noopener">' + esc(rec.sources[0].replace(/^https?:\/\//, "").split("/")[0]) + '</a></p>';
+    }
+    return "<h4>" + esc(rec.country) + "</h4><p>" + lines.join(" · ") + "</p>" + sourceLink;
   }
 
   svg.addEventListener("mousemove", function (e) {
@@ -194,6 +216,7 @@
   Object.keys(STATUS_LABEL).forEach(function (key) {
     var item = document.createElement("span");
     item.className = "item";
+    item.title = STATUS_DESC[key];
     item.innerHTML =
       '<span class="swatch" style="background:' + STATUS_COLOR[key] + '"></span>' + STATUS_LABEL[key];
     legend.appendChild(item);
@@ -201,6 +224,7 @@
 
   var noRec = document.createElement("span");
   noRec.className = "item";
+  noRec.title = STATUS_DESC.None;
   noRec.innerHTML = '<span class="swatch" style="background:#d2d2d7"></span>No record';
   legend.appendChild(noRec);
 
@@ -211,6 +235,8 @@
     .slice()
     .sort(function (a, b) { return a.country.localeCompare(b.country); })
     .forEach(function (rec) {
+      var sourceUrl = (rec.sources && rec.sources.length > 0) ? rec.sources[0] : "#";
+      var sourceDomain = sourceUrl !== "#" ? sourceUrl.replace(/^https?:\/\//, "").split("/")[0] : "";
       tpl.innerHTML =
         '<tr id="row-' + esc(rec.country.replace(/\s+/g, "-")) + '">' +
         "<td><strong>" + esc(rec.country) + "</strong></td>" +
@@ -221,6 +247,7 @@
         "<td>" + esc(rec.first_grid_target_year || "—") + "</td>" +
         "<td>" + esc(rec.regulator) + "</td>" +
         '<td><span class="tag tag-unverified">' + esc(rec.confidence) + "</span></td>" +
+        '<td><a href="' + esc(sourceUrl) + '" target="_blank" rel="noopener" class="source-link">' + esc(sourceDomain) + "</a></td>" +
         "</tr>";
       tableBody.appendChild(tpl.content.firstChild);
     });
@@ -241,4 +268,19 @@
   if (statCountries) statCountries.textContent = dataset.countries.length;
   if (statVerified) statVerified.textContent = verified;
   if (statActive) statActive.textContent = active;
+
+  var legendExplain = document.getElementById("legendExplain");
+  if (legendExplain) {
+    var html = '<div class="legend-section"><h3>Program statuses</h3><ul>';
+    Object.keys(STATUS_LABEL).forEach(function (key) {
+      html += '<li><span class="swatch" style="background:' + STATUS_COLOR[key] + '"></span><strong>' + STATUS_LABEL[key] + '</strong> — ' + STATUS_DESC[key] + '</li>';
+    });
+    html += '</ul></div>';
+    html += '<div class="legend-section"><h3>IAEA Milestone Phases</h3><ul>';
+    Object.keys(MILESTONE_DESC).forEach(function (key) {
+      html += '<li><strong>Phase ' + key + ':</strong> ' + MILESTONE_DESC[key] + '</li>';
+    });
+    html += '</ul><p class="legend-note">See <a href="https://www.iaea.org/topics/infrastructure-development/milestones-approach" target="_blank" rel="noopener">IAEA Milestones Approach</a> for full details.</p></div>';
+    legendExplain.innerHTML = html;
+  }
 })();
