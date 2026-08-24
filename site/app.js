@@ -271,16 +271,17 @@
 
   var legendExplain = document.getElementById("legendExplain");
   if (legendExplain) {
-    var html = '<div class="legend-section"><h3>Program statuses</h3><ul>';
+    var html = '<table class="legend-table"><thead><tr><th colspan="2">Program statuses</th></tr></thead><tbody>';
     Object.keys(STATUS_LABEL).forEach(function (key) {
-      html += '<li><span class="swatch" style="background:' + STATUS_COLOR[key] + '"></span><strong>' + STATUS_LABEL[key] + '</strong> — ' + STATUS_DESC[key] + '</li>';
+      html += '<tr><td class="legend-swatch-cell"><span class="swatch" style="background:' + STATUS_COLOR[key] + '"></span></td><td><strong>' + STATUS_LABEL[key] + '</strong> — ' + STATUS_DESC[key] + '</td></tr>';
     });
-    html += '</ul></div>';
-    html += '<div class="legend-section"><h3>IAEA Milestone Phases</h3><ul>';
+    html += '<tr class="legend-divider"><td></td><td></td></tr>';
+    html += '<tr><th colspan="2">IAEA Milestone Phases</th></tr>';
     Object.keys(MILESTONE_DESC).forEach(function (key) {
-      html += '<li><strong>Phase ' + key + ':</strong> ' + MILESTONE_DESC[key] + '</li>';
+      html += '<tr><td class="legend-phase-cell"><span class="phase-badge">P' + key + '</span></td><td>' + MILESTONE_DESC[key] + '</td></tr>';
     });
-    html += '</ul><p class="legend-note">See <a href="https://www.iaea.org/topics/infrastructure-development/milestones-approach" target="_blank" rel="noopener">IAEA Milestones Approach</a> for full details.</p></div>';
+    html += '</tbody></table>';
+    html += '<p class="legend-note">See <a href="https://www.iaea.org/topics/infrastructure-development/milestones-approach" target="_blank" rel="noopener">IAEA Milestones Approach</a> for full details.</p>';
     legendExplain.innerHTML = html;
   }
 })();
