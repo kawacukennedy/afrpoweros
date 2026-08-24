@@ -6,13 +6,8 @@
   --line: rgba(0, 0, 0, 0.08);
   --shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
   --radius: 22px;
-  --op: #34c759;
-  --uc: #ff9f0a;
-  --an: #ffd60a;
   --pr: #0a84ff;
-  --ex: #bf5af2;
   --none: #8e8e93;
-  --none-rec: #d2d2d7;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -142,50 +137,82 @@ main { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
   width: 10px;
   height: 10px;
   border-radius: 50%;
+  flex-shrink: 0;
 }
 
 .legend-explain {
-  max-width: 640px;
+  max-width: 560px;
   margin: 0 auto 24px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
   text-align: left;
 }
 
-.legend-section h3 {
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 8px;
-  color: var(--text);
-}
-
-.legend-section ul {
-  list-style: none;
+.legend-table {
+  width: 100%;
+  border-collapse: collapse;
   font-size: 13px;
-  color: var(--text-2);
 }
 
-.legend-section li {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  margin-bottom: 6px;
+.legend-table th {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-2);
+  padding: 10px 0 6px;
+  border-bottom: 1px solid var(--line);
+}
+
+.legend-table td {
+  padding: 7px 0;
+  color: var(--text-2);
+  vertical-align: middle;
   line-height: 1.4;
 }
 
-.legend-section .swatch {
-  width: 8px;
-  height: 8px;
+.legend-table td strong {
+  color: var(--text);
+}
+
+.legend-swatch-cell {
+  width: 24px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.legend-swatch-cell .swatch {
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-  flex-shrink: 0;
-  margin-top: 3px;
+  display: inline-block;
+}
+
+.legend-phase-cell {
+  width: 24px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.phase-badge {
+  display: inline-block;
+  background: var(--pr);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+  line-height: 1;
+}
+
+.legend-divider td {
+  padding: 4px 0;
+  border-bottom: 1px solid var(--line);
 }
 
 .legend-note {
   font-size: 12px;
   color: var(--text-2);
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .legend-note a { color: var(--pr); text-decoration: none; }
@@ -461,11 +488,6 @@ tbody tr.highlight { animation: flash 2s ease; }
 .issue a { color: var(--pr); text-decoration: none; }
 .issue .newsletter-form { justify-content: flex-start; margin-top: 24px; }
 
-@media (max-width: 720px) {
-  .issue { padding: 28px 20px; }
-  .newsletter-archive { padding: 24px 20px; }
-}
-
 .footer {
   text-align: center;
   padding: 40px 24px 56px;
@@ -483,7 +505,8 @@ tbody tr.highlight { animation: flash 2s ease; }
   .hero { padding: 48px 0 28px; }
   .stats { gap: 20px; }
   .contribute-card { padding: 24px 18px; }
-  .legend-explain { grid-template-columns: 1fr; gap: 16px; }
+  .issue { padding: 28px 20px; }
+  .newsletter-archive { padding: 24px 20px; }
   thead th:nth-child(6), tbody td:nth-child(6) { display: none; }
   thead th:nth-child(8), tbody td:nth-child(8) { display: none; }
 }
