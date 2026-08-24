@@ -49,3 +49,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   `newsletter` GitHub Actions workflow sends every Tuesday at 09:00 UTC and on
   manual dispatch. Subscribe forms use the real Buttondown username `kawacu`;
   the newsletter page links to the canonical live archive.
+- Partnership outreach package: 13 hyper-personalized emails for institutional
+  partners (RAEB, REG, IAEA PRIS, ESI Africa, SEforALL, World Nuclear
+  Association, Africa Energy Chamber, USAID Power Africa, CMU-Africa, KNUST,
+  Stellenbosch CRSES, Norrsken House Kigali).
+- "Rwanda's nuclear stack in one page" analysis: first published analysis piece
+  with 9 cited sources, covering INIR mission, Dual Fluid/Rosatom agreements,
+  energy mix context, and what to watch next.
+- One-page partner proposal: ready to attach to partnership emails.
+- Scholarship deadline tracker: Stipendium Hungaricum (~Jan 15, 2027), US
+  need-blind schools (Nov 1 / Jan 1–5), GKS (Sep–Oct 2026 / Feb 2027),
+  ALU/University of Rwanda fallback.
+- Monetization plan: who to pitch for first $500 report, how to land it,
+  revenue projections, and what NOT to do.
