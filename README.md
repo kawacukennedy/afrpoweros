@@ -40,6 +40,23 @@ Every field carries a confidence label:
 | `Speculation` | Hypothesis; treat as unproven. |
 | `Unverified` | Reported but not yet confirmed. Check before relying. |
 
+## Web site
+
+The static site is generated from the dataset by `scripts/build_site.py`
+(no dependencies, run by CI before deploy):
+
+- **Homepage** (`site/index.html`) — interactive map, country table, FAQ,
+  dataset + FAQPage structured data, Open Graph/Twitter meta.
+- **Per-country pages** — `site/dist/countries/<slug>.html` for all 20
+  countries, each with its own title, meta description, canonical URL,
+  key facts, key events, sources and related-country links (targets
+  long-tail "&lt;country&gt; nuclear program" searches).
+- **Country index** — `site/dist/countries/index.html`.
+- **`sitemap.xml` and `robots.txt`** — emitted into `site/dist/`.
+
+Point Google Search Console at `https://kawacukennedy.github.io/afrpoweros` and
+submit `sitemap.xml` to start indexing the per-country pages.
+
 ## Quick start
 
 ```bash

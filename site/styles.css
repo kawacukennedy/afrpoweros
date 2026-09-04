@@ -511,6 +511,223 @@ tbody tr.highlight { animation: flash 2s ease; }
   thead th:nth-child(8), tbody td:nth-child(8) { display: none; }
 }
 
+/* SEO: country link grid + FAQ */
+.country-links {
+  max-width: 900px;
+  margin: 0 auto 80px;
+}
+
+.country-links h2 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.country-links-sub {
+  text-align: center;
+  color: var(--text-2);
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+
+.country-link-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 10px;
+}
+
+.country-link-grid a {
+  display: block;
+  padding: 12px 16px;
+  background: var(--card);
+  border-radius: 14px;
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid var(--line);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.country-link-grid a:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow);
+  color: var(--pr);
+}
+
+.faq {
+  max-width: 760px;
+  margin: 0 auto 80px;
+}
+
+.faq h2 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.faq-item {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 22px 26px;
+  margin-bottom: 12px;
+}
+
+.faq-item h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.faq-item p {
+  color: var(--text-2);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.faq-item a { color: var(--pr); text-decoration: none; }
+
+/* SEO: static country pages */
+.country-hero {
+  text-align: center;
+  padding: 56px 0 24px;
+}
+
+.country-hero .eyebrow { margin-bottom: 10px; }
+
+.country-hero h1 {
+  font-size: clamp(30px, 5vw, 46px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: 14px;
+}
+
+.country-hero .hero-sub {
+  max-width: 640px;
+  font-size: 16px;
+}
+
+.breadcrumb {
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: 13px;
+  color: var(--text-2);
+}
+
+.breadcrumb a {
+  color: var(--pr);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover { text-decoration: underline; }
+
+.country-body {
+  max-width: 760px;
+  margin: 0 auto 80px;
+}
+
+.country-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 32px 36px;
+  margin-bottom: 24px;
+}
+
+.country-card h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 26px 0 12px;
+}
+
+.country-card h2:first-child { margin-top: 0; }
+
+.country-card p {
+  color: var(--text-2);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.kv-list {
+  list-style: none;
+  margin: 0;
+}
+
+.kv-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 14px;
+}
+
+.kv-list li:last-child { border-bottom: none; }
+
+.kv-list .k {
+  color: var(--text-2);
+  flex-shrink: 0;
+}
+
+.kv-list .v { font-weight: 500; text-align: right; }
+
+.kv-list .v a { color: var(--pr); text-decoration: none; }
+
+.event-list {
+  list-style: none;
+  margin: 0;
+}
+
+.event-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.event-list li:last-child { border-bottom: none; }
+
+.event-list .date {
+  display: inline-block;
+  min-width: 88px;
+  color: var(--text-2);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.source-list { list-style: none; margin: 0; }
+
+.source-list li {
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+
+.source-list a {
+  color: var(--pr);
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.source-list a:hover { text-decoration: underline; }
+
+.confidence-note {
+  font-size: 13px;
+  color: var(--text-2);
+}
+
+@media (max-width: 720px) {
+  .country-card { padding: 22px 18px; }
+  .kv-list li { flex-direction: column; gap: 2px; }
+  .kv-list .v { text-align: left; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   * { transition: none !important; animation: none !important; }

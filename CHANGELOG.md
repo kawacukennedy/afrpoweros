@@ -62,3 +62,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   ALU/University of Rwanda fallback.
 - Monetization plan: who to pitch for first $500 report, how to land it,
   revenue projections, and what NOT to do.
+- SEO overhaul: per-country static pages generated at build time (unique
+  title, meta description, canonical, Dataset JSON-LD, key facts, key events,
+  sources and related-country links) targeting long-tail "country + nuclear
+  program" queries; a country index page; homepage FAQ section and FAQPage
+  JSON-LD rich result markup; Open Graph / Twitter card meta; `sitemap.xml`
+  and `robots.txt` emitted by the build; canonical + robots meta injected on
+  newsletter pages; `map-screenshot.png` copied to the deploy root for social
+  share previews.
