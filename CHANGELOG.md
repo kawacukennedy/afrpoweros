@@ -70,3 +70,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   and `robots.txt` emitted by the build; canonical + robots meta injected on
   newsletter pages; `map-screenshot.png` copied to the deploy root for social
   share previews.
+- Per-assertion sourcing and confidence labels: `data/assertions-schema.json`
+  defines a claim-level structure (field, value, confidence, source_url,
+  observation_date, verification_date) that replaces the single country-wide
+  confidence label; `data/schema.json` gained an optional `assertions` array.
+  `scripts/validate.py` validates every assertion; `scripts/build_site.py`
+  renders a per-country "Claims and confidence labels" table. Backfilled for
+  Rwanda, South Africa, Egypt, Nigeria and Kenya, with homepage-level sources
+  replaced by precise article URLs (e.g. IAEA INIR press release, World
+  Nuclear News IRP 2025 coverage) and outdated values corrected to latest
+  verified figures (South Africa IRP 2025 5,200 MW / 2039, Kenya Siaya 2,000
+  MW target).
