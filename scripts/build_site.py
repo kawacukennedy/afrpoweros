@@ -273,6 +273,28 @@ def _country_page(rec, stylesheet):
     if rec.get("notes"):
         notes = f"<h2>Summary</h2>\n<p>{esc(rec.get('notes'))}</p>\n"
 
+    assertions_html = ""
+    if rec.get("assertions"):
+        assertions_html = "<h2>Claims and confidence labels</h2>\n<ul class=\"assertion-list\">\n"
+        for a in rec["assertions"]:
+            val = a.get("value")
+            if isinstance(val, list):
+                val = ", ".join(str(v) for v in val)
+            elif val is None:
+                val = "n/a"
+            else:
+                val = str(val)
+            src = a.get("source_url", "")
+            link = f" <a href=\"{esc(src)}\" rel=\"noopener\" target=\"_blank\">source</a>" if src else ""
+            assertions_html += (
+                f"<li><span class=\"a-field\">{esc(a.get('field'))}</span>"
+                f"<span class=\"a-value\">{esc(val)}</span>"
+                f"<span class=\"a-conf\">{esc(a.get('confidence'))}</span>"
+                f"<span class=\"a-date\">observed {esc(a.get('observation_date'))} · verified {esc(a.get('verification_date'))}"
+                f"{link}</span></li>\n"
+            )
+        assertions_html += "</ul>\n"
+
     related = ""
     if rec.get("region"):
         related_links = []
@@ -314,7 +336,7 @@ def _country_page(rec, stylesheet):
         "      <div class=\"country-card\">\n"
         "<h2>" + esc(country) + " — key facts</h2>\n"
         "        <ul class=\"kv-list\">\n" + rows + "        </ul>\n"
-        + notes + events + sources + related +
+        + notes + events + assertions_html + sources + related +
         "        <p class=\"confidence-note\">Confidence labels: Verified (primary source), "
         "Inference (reasonable reading of verified evidence), Speculation (hypothesis), "
         "Unverified (reported, not confirmed). See the "

@@ -102,6 +102,32 @@ def check_string_list(value, field, country, min_items=0):
             fail(f"{country}: {field} entries must be strings")
 
 
+def check_assertion(assertion, country, index):
+    prefix = f"{country}: assertion #{index}"
+    if not isinstance(assertion, dict):
+        fail(f"{prefix} must be an object")
+        return
+    required = ["field", "value", "confidence", "source_url", "observation_date", "verification_date"]
+    for field in required:
+        if field not in assertion:
+            fail(f"{prefix} missing required field '{field}'")
+    field = assertion.get("field")
+    if not isinstance(field, str) or not field.strip():
+        fail(f"{prefix} field must be a non-empty string")
+    conf = assertion.get("confidence")
+    if conf not in CONFIDENCES:
+        fail(f"{prefix} invalid confidence '{conf}'")
+    src = assertion.get("source_url")
+    if not isinstance(src, str) or not src.startswith("http"):
+        fail(f"{prefix} source_url must be a URL starting with http")
+    obs = assertion.get("observation_date")
+    if not isinstance(obs, str) or not DATE_RE.match(obs):
+        fail(f"{prefix} observation_date must be YYYY or YYYY-MM, got '{obs}'")
+    ver = assertion.get("verification_date")
+    if not valid_date(ver):
+        fail(f"{prefix} verification_date must be an ISO date (YYYY-MM-DD), got '{ver}'")
+
+
 def main():
     global records
     schema = load_json(DATA / "schema.json")
@@ -202,6 +228,9 @@ def main():
         verified = record.get("last_verified")
         if not valid_date(verified):
             fail(f"{country}: last_verified must be an ISO date (YYYY-MM-DD), got '{verified}'")
+
+        for i, assertion in enumerate(record.get("assertions", []), start=1):
+            check_assertion(assertion, country, i)
 
     check_csv(dataset)
 
