@@ -702,6 +702,38 @@ tbody tr.highlight { animation: flash 2s ease; }
   font-weight: 600;
 }
 
+.assertion-list { list-style: none; margin: 0; padding: 0; }
+
+.assertion-list li {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr auto;
+  gap: 8px 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.assertion-list li:last-child { border-bottom: none; }
+
+.assertion-list .a-field {
+  color: var(--text-2);
+  font-weight: 600;
+}
+
+.assertion-list .a-conf {
+  font-weight: 600;
+  color: var(--pr);
+}
+
+.assertion-list .a-date {
+  grid-column: 1 / -1;
+  color: var(--text-2);
+  font-size: 12px;
+}
+
+.assertion-list .a-value a { color: var(--pr); }
+
 .source-list { list-style: none; margin: 0; }
 
 .source-list li {

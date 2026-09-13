@@ -14,12 +14,15 @@
       "research_reactor": null,
       "regulator": "Rwanda Atomic Energy Board (RAEB)",
       "implementing_agency": "Rwanda Atomic Energy Board (RAEB) / Ministry of Infrastructure (MININFRA)",
-      "vendors": ["Dual Fluid Energy", "Rosatom"],
+      "vendors": [
+        "Dual Fluid Energy",
+        "Rosatom"
+      ],
       "agreements": [
         "Russia-Rwanda agreement on nuclear energy cooperation (2025)",
         "Rwanda-Dual Fluid Energy agreement (2024)"
       ],
-      "electricity_access_pct": 70.0,
+      "electricity_access_pct": 75.0,
       "installed_capacity_mw": null,
       "notes": "Advanced the furthest of the IAEA Phase 2 countries in East Africa. Completed IAEA INIR Phase 2 review with a follow-up mission (March 2026). Signed a phased roadmap with Russia (2025) targeting an initial nuclear phase by ~2030 and a first-of-kind Dual Fluid Energy reactor feasibility study due ~June 2026. No procurement decision made.",
       "key_events": [
@@ -52,7 +55,87 @@
         "https://www.reg.rw"
       ],
       "confidence": "Verified",
-      "last_verified": "2026-08-16"
+      "last_verified": "2026-08-16",
+      "assertions": [
+        {
+          "field": "program_status",
+          "value": "Preparing",
+          "confidence": "Verified",
+          "source_url": "https://www.iaea.org/newscenter/pressreleases/iaea-reviews-rwandas-nuclear-power-infrastructure-development",
+          "observation_date": "2026-03",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "iaea_milestone_phase",
+          "value": 2,
+          "confidence": "Verified",
+          "source_url": "https://www.iaea.org/newscenter/pressreleases/iaea-reviews-rwandas-nuclear-power-infrastructure-development",
+          "observation_date": "2026-03",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "commercial_reactors_operating",
+          "value": 0,
+          "confidence": "Verified",
+          "source_url": "https://www.iaea.org/newscenter/pressreleases/iaea-reviews-rwandas-nuclear-power-infrastructure-development",
+          "observation_date": "2026-03",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "commercial_reactors_under_construction",
+          "value": 0,
+          "confidence": "Verified",
+          "source_url": "https://www.iaea.org/newscenter/pressreleases/iaea-reviews-rwandas-nuclear-power-infrastructure-development",
+          "observation_date": "2026-03",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "first_grid_target_year",
+          "value": 2030,
+          "confidence": "Inference",
+          "source_url": "https://world-nuclear-news.org/articles/russia-and-rwanda-hold-first-nuclear-energy-joint-committee-meeting",
+          "observation_date": "2026-07",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "vendors",
+          "value": [
+            "Dual Fluid Energy",
+            "Rosatom"
+          ],
+          "confidence": "Verified",
+          "source_url": "https://world-nuclear-news.org/articles/demonstration-reactor-to-be-built-in-rwanda",
+          "observation_date": "2023-09",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "agreements",
+          "value": [
+            "Russia-Rwanda agreement on nuclear energy cooperation (2025)",
+            "Rwanda-Dual Fluid Energy agreement (2024)"
+          ],
+          "confidence": "Verified",
+          "source_url": "https://world-nuclear-news.org/articles/russia-and-rwanda-hold-first-nuclear-energy-joint-committee-meeting",
+          "observation_date": "2026-07",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "electricity_access_pct",
+          "value": 75.0,
+          "confidence": "Verified",
+          "source_url": "https://www.worldbank.org/en/news/feature/2024/04/10/ingredients-for-accelerating-universal-electricity-access-lessons-from-afe-rwanda-inspirational-approach",
+          "observation_date": "2024-03",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "installed_capacity_mw",
+          "value": null,
+          "confidence": "Verified",
+          "source_url": "https://www.iaea.org/newscenter/pressreleases/iaea-reviews-rwandas-nuclear-power-infrastructure-development",
+          "observation_date": "2026-03",
+          "verification_date": "2026-08-16"
+        }
+      ]
     },
     {
       "country": "Kenya",
@@ -61,7 +144,7 @@
       "iaea_milestone_phase": 2,
       "commercial_reactors_operating": 0,
       "commercial_reactors_under_construction": 0,
-      "capacity_gw_planned": 1.0,
+      "capacity_gw_planned": 2.0,
       "first_grid_target_year": 2034,
       "research_reactor": null,
       "regulator": "Kenya Nuclear Regulatory Authority (KNRA)",
@@ -96,7 +179,67 @@
         "https://nuclear.go.ke"
       ],
       "confidence": "Verified",
-      "last_verified": "2026-08-16"
+      "last_verified": "2026-08-16",
+      "assertions": [
+        {
+          "field": "program_status",
+          "value": "Preparing",
+          "confidence": "Verified",
+          "source_url": "https://world-nuclear-news.org/articles/kenya-agency-outlines-nuclear-development-plans",
+          "observation_date": "2024-03",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "iaea_milestone_phase",
+          "value": 2,
+          "confidence": "Verified",
+          "source_url": "https://world-nuclear-news.org/articles/kenya-agency-outlines-nuclear-development-plans",
+          "observation_date": "2024-03",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "commercial_reactors_operating",
+          "value": 0,
+          "confidence": "Verified",
+          "source_url": "https://world-nuclear-news.org/articles/kenya-agency-outlines-nuclear-development-plans",
+          "observation_date": "2024-03",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "commercial_reactors_under_construction",
+          "value": 0,
+          "confidence": "Verified",
+          "source_url": "https://world-nuclear-news.org/articles/kenya-agency-outlines-nuclear-development-plans",
+          "observation_date": "2024-03",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "capacity_gw_planned",
+          "value": 2.0,
+          "confidence": "Unverified",
+          "source_url": "https://www.kenyanews.net/news/278943804/intl-nuclear-energy-forum-opens-in-kenya-amid-call-for-safety",
+          "observation_date": "2026-03",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "first_grid_target_year",
+          "value": 2034,
+          "confidence": "Verified",
+          "source_url": "https://world-nuclear-news.org/articles/kenya-agency-outlines-nuclear-development-plans",
+          "observation_date": "2024-03",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "agreements",
+          "value": [
+            "Bilateral nuclear cooperation agreements with IAEA, United States, South Korea, China and Russia"
+          ],
+          "confidence": "Unverified",
+          "source_url": "https://world-nuclear-news.org/articles/kenya-agency-outlines-nuclear-development-plans",
+          "observation_date": "2024-03",
+          "verification_date": "2026-08-16"
+        }
+      ]
     },
     {
       "country": "Ghana",
@@ -110,7 +253,14 @@
       "research_reactor": "GHARR-1 (30 kW miniature neutron source reactor)",
       "regulator": "Nuclear Regulatory Authority (NRA)",
       "implementing_agency": "Nuclear Power Ghana (NPG) / Ghana Atomic Energy Commission (GAEC)",
-      "vendors": ["EDF (France)", "NuScale / GE-Hitachi / Regnum (United States)", "KEPCO/KHNP (South Korea)", "CNNC/CGN (China)", "Rosatom (Russia)", "Laurentis Energy Partners / Ontario Power Generation (Canada)"],
+      "vendors": [
+        "EDF (France)",
+        "NuScale / GE-Hitachi / Regnum (United States)",
+        "KEPCO/KHNP (South Korea)",
+        "CNNC/CGN (China)",
+        "Rosatom (Russia)",
+        "Laurentis Energy Partners / Ontario Power Generation (Canada)"
+      ],
       "agreements": [
         "Vendor EOI finalists announced (March 2025) pending selection",
         "IAEA Integrated Nuclear Infrastructure Review support"
@@ -155,7 +305,9 @@
       "research_reactor": "ETRR-1 (2 MW) and ETRR-2 (22 MW)",
       "regulator": "Egyptian Nuclear and Radiological Regulatory Authority (ENRRA)",
       "implementing_agency": "Nuclear Power Plants Authority (NPPA)",
-      "vendors": ["Rosatom"],
+      "vendors": [
+        "Rosatom"
+      ],
       "agreements": [
         "Russia-Egypt intergovernmental agreement (2015)",
         "Russian state loan facility (~USD 25 billion)"
@@ -181,7 +333,86 @@
         "https://www.nppa.gov.eg"
       ],
       "confidence": "Verified",
-      "last_verified": "2026-08-16"
+      "last_verified": "2026-08-16",
+      "assertions": [
+        {
+          "field": "program_status",
+          "value": "Under Construction",
+          "confidence": "Verified",
+          "source_url": "https://www.world-nuclear-news.org/articles/construction-of-egypts-first-nuclear-power-plant-u",
+          "observation_date": "2022-07",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "iaea_milestone_phase",
+          "value": 3,
+          "confidence": "Inference",
+          "source_url": "https://world-nuclear.org/Information-Library/Country-Profiles/countries-A-F/Egypt",
+          "observation_date": "2026",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "commercial_reactors_operating",
+          "value": 0,
+          "confidence": "Verified",
+          "source_url": "https://www.world-nuclear-news.org/articles/construction-of-egypts-first-nuclear-power-plant-u",
+          "observation_date": "2022-07",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "commercial_reactors_under_construction",
+          "value": 4,
+          "confidence": "Verified",
+          "source_url": "https://world-nuclear-news.org/articles/supplementary-agreements-signed-for-el-dabaa-project",
+          "observation_date": "2025-07",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "capacity_gw_planned",
+          "value": 4.8,
+          "confidence": "Verified",
+          "source_url": "https://world-nuclear.org/news-and-media/press-statements/start-of-construction-of-egypt-s-first-nuclear-pow",
+          "observation_date": "2022-07",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "first_grid_target_year",
+          "value": 2028,
+          "confidence": "Verified",
+          "source_url": "https://tass.com/economy/2177563",
+          "observation_date": "2026-08",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "research_reactor",
+          "value": "ETRR-1 (2 MW) and ETRR-2 (22 MW)",
+          "confidence": "Inference",
+          "source_url": "https://world-nuclear.org/Information-Library/Country-Profiles/countries-A-F/Egypt",
+          "observation_date": "2026",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "vendors",
+          "value": [
+            "Rosatom"
+          ],
+          "confidence": "Verified",
+          "source_url": "https://www.world-nuclear-news.org/articles/construction-of-egypts-first-nuclear-power-plant-u",
+          "observation_date": "2022-07",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "agreements",
+          "value": [
+            "Russia-Egypt intergovernmental agreement (2015)",
+            "Russian state loan facility (~USD 25 billion)"
+          ],
+          "confidence": "Verified",
+          "source_url": "https://www.world-nuclear-news.org/articles/el-dabaa-export-loan-ratified-as-unit-4s-core-catcher-installed",
+          "observation_date": "2015-11",
+          "verification_date": "2026-08-16"
+        }
+      ]
     },
     {
       "country": "South Africa",
@@ -190,8 +421,8 @@
       "iaea_milestone_phase": 3,
       "commercial_reactors_operating": 2,
       "commercial_reactors_under_construction": 0,
-      "capacity_gw_planned": 2.5,
-      "first_grid_target_year": 2032,
+      "capacity_gw_planned": 5.2,
+      "first_grid_target_year": 2036,
       "research_reactor": "SAFARI-1 (20 MW tank-in-pool)",
       "regulator": "National Nuclear Regulator (NNR)",
       "implementing_agency": "Eskom (Koeberg) / Department of Mineral and Petroleum Resources / NNEECC",
@@ -202,17 +433,17 @@
       ],
       "electricity_access_pct": 92.0,
       "installed_capacity_mw": 47000.0,
-      "notes": "Only African country with an operating commercial nuclear power plant (Koeberg Units 1 & 2, 1,860 MW net total). The 2032 grid target refers to IRP 2025's plan for 2,500 MW of *new* nuclear capacity — separate from existing Koeberg operations. Unit 2 licence extended to 2044 (May 2025). Strong SME base and PBMR legacy. Procurement route for new build not yet finalised.",
+      "notes": "Only African country with an operating commercial nuclear power plant (Koeberg Units 1 & 2, 1,860 MW net total). IRP 2025 (approved Oct 2025) calls for 5,200 MW of *new* nuclear capacity by 2039, with an initial 1,200 MW targeted for 2036. Koeberg Unit 2 licence extended to 2045 (Nov 2025). Strong SME base and PBMR legacy. Procurement route for new build not yet finalised.",
       "key_events": [
         {
-          "date": "2025-05",
-          "title": "Koeberg Unit 2 operating licence extended to 2044",
-          "source": "https://www.world-nuclear-news.org"
+          "date": "2025-11",
+          "title": "Koeberg Unit 2 operating licence extended to 2045",
+          "source": "https://www.world-nuclear-news.org/articles/koeberg-unit-2-approved-for-extended-operation"
         },
         {
-          "date": "2025-09",
-          "title": "South Africa publishes IRP 2025 with 2,500 MW new nuclear by 2032",
-          "source": "https://www.world-nuclear-news.org"
+          "date": "2025-10",
+          "title": "South Africa approves IRP 2025: 5,200 MW new nuclear by 2039",
+          "source": "https://www.world-nuclear-news.org/articles/south-african-government-approves-draft-2025-irp"
         },
         {
           "date": "2025",
@@ -227,7 +458,75 @@
         "https://www.iaea.org"
       ],
       "confidence": "Verified",
-      "last_verified": "2026-08-16"
+      "last_verified": "2026-08-16",
+      "assertions": [
+        {
+          "field": "program_status",
+          "value": "Operating",
+          "confidence": "Verified",
+          "source_url": "https://www.world-nuclear-news.org/articles/koeberg-unit-2-approved-for-extended-operation",
+          "observation_date": "2025-11",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "iaea_milestone_phase",
+          "value": 3,
+          "confidence": "Verified",
+          "source_url": "https://www.world-nuclear-news.org/articles/koeberg-unit-2-approved-for-extended-operation",
+          "observation_date": "2025-11",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "commercial_reactors_operating",
+          "value": 2,
+          "confidence": "Verified",
+          "source_url": "https://www.world-nuclear-news.org/articles/koeberg-unit-2-approved-for-extended-operation",
+          "observation_date": "2025-11",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "commercial_reactors_under_construction",
+          "value": 0,
+          "confidence": "Verified",
+          "source_url": "https://www.world-nuclear-news.org/articles/koeberg-unit-2-approved-for-extended-operation",
+          "observation_date": "2025-11",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "capacity_gw_planned",
+          "value": 5.2,
+          "confidence": "Verified",
+          "source_url": "https://www.world-nuclear-news.org/articles/south-african-government-approves-draft-2025-irp",
+          "observation_date": "2025-10",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "first_grid_target_year",
+          "value": 2036,
+          "confidence": "Inference",
+          "source_url": "https://www.world-nuclear-news.org/articles/south-african-government-approves-draft-2025-irp",
+          "observation_date": "2025-10",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "research_reactor",
+          "value": "SAFARI-1 (20 MW tank-in-pool)",
+          "confidence": "Verified",
+          "source_url": "https://www.necsa.co.za/safari-1/",
+          "observation_date": "2025",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "agreements",
+          "value": [
+            "US-South Africa 123 Agreement"
+          ],
+          "confidence": "Verified",
+          "source_url": "https://www.energy.gov/sites/default/files/pi_iec/098b7ef980004373.pdf",
+          "observation_date": "1995-08",
+          "verification_date": "2026-08-16"
+        }
+      ]
     },
     {
       "country": "Uganda",
@@ -351,7 +650,67 @@
         "https://www.nnra.gov.ng"
       ],
       "confidence": "Verified",
-      "last_verified": "2026-08-16"
+      "last_verified": "2026-08-16",
+      "assertions": [
+        {
+          "field": "program_status",
+          "value": "Preparing",
+          "confidence": "Verified",
+          "source_url": "https://world-nuclear.org/our-association/publications/world-nuclear-outlook-report/nigeria---world-nuclear-outlook-report",
+          "observation_date": "2025",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "iaea_milestone_phase",
+          "value": 2,
+          "confidence": "Verified",
+          "source_url": "https://nucleus.iaea.org/sites/INPRO/df23/day2-MS/Nigeria.pdf",
+          "observation_date": "2023",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "commercial_reactors_operating",
+          "value": 0,
+          "confidence": "Verified",
+          "source_url": "https://world-nuclear.org/our-association/publications/world-nuclear-outlook-report/nigeria---world-nuclear-outlook-report",
+          "observation_date": "2025",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "commercial_reactors_under_construction",
+          "value": 0,
+          "confidence": "Verified",
+          "source_url": "https://world-nuclear.org/our-association/publications/world-nuclear-outlook-report/nigeria---world-nuclear-outlook-report",
+          "observation_date": "2025",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "capacity_gw_planned",
+          "value": 4.0,
+          "confidence": "Verified",
+          "source_url": "https://world-nuclear.org/our-association/publications/world-nuclear-outlook-report/nigeria---world-nuclear-outlook-report",
+          "observation_date": "2025",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "research_reactor",
+          "value": "NIRR-1 (miniature neutron source reactor)",
+          "confidence": "Verified",
+          "source_url": "https://nucleus.iaea.org/sites/INPRO/df23/day2-MS/Nigeria.pdf",
+          "observation_date": "2023",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "agreements",
+          "value": [
+            "China-Nigeria nuclear cooperation MoU (2024)"
+          ],
+          "confidence": "Verified",
+          "source_url": "https://nigatom.gov.ng/nigeria-signs-mou-on-nuclear-energy-with-china/",
+          "observation_date": "2024-09",
+          "verification_date": "2026-08-16"
+        }
+      ]
     },
     {
       "country": "Zambia",
@@ -429,7 +788,9 @@
       "research_reactor": "NUR (1 MW pool) and Es-Salam (15 MW heavy-water)",
       "regulator": "Commissariat à l'Énergie Atomique (COMENA)",
       "implementing_agency": "Commissariat à l'Énergie Atomique (COMENA)",
-      "vendors": ["Rosatom (SMR feasibility discussions)"],
+      "vendors": [
+        "Rosatom (SMR feasibility discussions)"
+      ],
       "agreements": [
         "IAEA country programme framework"
       ],
@@ -588,7 +949,9 @@
       "research_reactor": null,
       "regulator": "Radiation Protection Authority of Zimbabwe (RPAZ)",
       "implementing_agency": "Ministry of Energy and Power Development",
-      "vendors": ["KHNP (i-SMR evaluation MoU)"],
+      "vendors": [
+        "KHNP (i-SMR evaluation MoU)"
+      ],
       "agreements": [
         "Zimbabwe-KHNP MoU on i-SMR deployment evaluation (2025)"
       ],
