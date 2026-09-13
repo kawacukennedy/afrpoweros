@@ -643,6 +643,50 @@
       "last_verified": "2026-08-16"
     },
     {
+      "country": "Togo",
+      "region": "West Africa",
+      "program_status": "Exploring",
+      "iaea_milestone_phase": null,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": null,
+      "first_grid_target_year": null,
+      "research_reactor": null,
+      "regulator": "Atomic Energy Commission (established January 2025)",
+      "implementing_agency": "Council of Ministers (Office of the Presidency)",
+      "vendors": [],
+      "agreements": [
+        "IAEA cooperation framework (signed 2026, Vienna)",
+        "Declaration to Triple Nuclear Energy by 2050 (2026)"
+      ],
+      "electricity_access_pct": null,
+      "installed_capacity_mw": null,
+      "notes": "Togo 'has begun preparations for the introduction of nuclear technologies', per its President of the Council of Ministers addressing the World Nuclear Symposium (London, Sept 2026). IAEA member since 2012; Atomic Energy Commission established January 2025; new IAEA cooperation framework signed in Vienna (2026). Announced it will host the next Nuclear Energy Innovation Summit for Africa (NEISA) in Lomé, 1-3 June 2027, and signed the Declaration to Triple Nuclear Energy by 2050. No capacity target, milestone phase, or procurement decision.",
+      "key_events": [
+        {
+          "date": "2026-09",
+          "title": "Togo announces NEISA 2027 host and nuclear preparations at World Nuclear Symposium",
+          "source": "https://www.world-nuclear-news.org/articles/africa-must-be-part-of-global-nuclear-renaissance-says-togolese-leader"
+        },
+        {
+          "date": "2026",
+          "title": "Togo signs new IAEA cooperation framework in Vienna",
+          "source": "https://www.world-nuclear-news.org/articles/africa-must-be-part-of-global-nuclear-renaissance-says-togolese-leader"
+        },
+        {
+          "date": "2025-01",
+          "title": "Togo establishes its Atomic Energy Commission",
+          "source": "https://www.world-nuclear-news.org/articles/africa-must-be-part-of-global-nuclear-renaissance-says-togolese-leader"
+        }
+      ],
+      "sources": [
+        "https://www.world-nuclear-news.org/articles/africa-must-be-part-of-global-nuclear-renaissance-says-togolese-leader",
+        "https://www.iaea.org"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-09-13"
+    },
+    {
       "country": "Mali",
       "region": "West Africa",
       "program_status": "Exploring",
