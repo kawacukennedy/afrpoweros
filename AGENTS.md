@@ -41,3 +41,14 @@ See `docs/methodology.md`. Choose the more conservative label when unsure.
 
 - Validate everything: `python3 scripts/validate.py`
 - Example usage: `python3 examples/quickstart.py`
+
+## External publication notes (Neutron Bytes and similar outlets)
+
+Feedback consolidated from the Neutron Bytes submission (Sept 2026), apply to
+all future guest-contribution materials:
+
+- Send article files as MS Word or ASCII text — not PDF.
+- Keep graphics simple with large fonts: 16 pt or larger for all text labels.
+- Submit by agreed dates; evergreen framing is preferred.
+- Attach graphics separately as JPG/PNG with captions plus credit/source text
+  and clear placement instructions.

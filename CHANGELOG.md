@@ -70,3 +70,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   and `robots.txt` emitted by the build; canonical + robots meta injected on
   newsletter pages; `map-screenshot.png` copied to the deploy root for social
   share previews.
+- Expanded dataset to 21 countries: added Togo (`Exploring`, `Verified`) with
+  IAEA membership (2012), Atomic Energy Commission (Jan 2025), 2026 IAEA
+  cooperation framework, NEISA 2027 host role in Lomé, and the tripling
+  declaration, sourced from World Nuclear News.
+- Neutron Bytes submission feedback logged for future segments: send articles
+  as MS Word or ASCII text (not PDF), and keep graphics simple with large
+  fonts (16 pt or larger for labels).
