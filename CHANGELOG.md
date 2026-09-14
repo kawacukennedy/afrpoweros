@@ -70,3 +70,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   and `robots.txt` emitted by the build; canonical + robots meta injected on
   newsletter pages; `map-screenshot.png` copied to the deploy root for social
   share previews.
+- South Africa key event added: four INES Level 0 airborne contamination
+  events at Koeberg Unit 2 (30 Jun–16 Jul 2026) during steam-generator
+  inspections; no off-site release; NNR investigation ongoing. Source: Eskom
+  and NNR statements, plus multiple South African news outlets.
