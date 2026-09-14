@@ -1,0 +1,53 @@
+Captions, credit/source text, and placement instructions
+for the three graphics accompanying:
+
+"Africa's Nuclear Buildout, by the Numbers"
+Neutron Bytes submission — Kennedy Kawacu
+
+====================================================================
+Figure 1 — graphic-1-planned-capacity.png
+====================================================================
+CAPTION
+Planned nuclear capacity by African country (GW), with first-grid
+target year where announced. Seven countries have announced capacity
+plans; South Africa's IRP 2025 (5.2 GW by 2039) and Egypt's El Dabaa
+construction program (4 x VVER-1200) are the furthest advanced.
+
+PLACEMENT
+Near the "preparing tier" section — after the paragraph introducing
+Kenya, Ghana and Rwanda.
+
+====================================================================
+Figure 2 — graphic-2-milestone-timeline.png
+====================================================================
+CAPTION
+Key milestones in Africa's civilian nuclear programs, 2015-2026:
+from the Russia-Egypt agreement for El Dabaa to first concrete
+(2022), South Africa's IRP 2025 and Koeberg licence extension
+(2025), and the 2026 advance of Kenya, Rwanda and DR Congo.
+
+PLACEMENT
+After the "operating reference point" section, OR between the Egypt
+and preparing-tier sections, as a visual bridge.
+
+====================================================================
+Figure 3 — graphic-3-status-scoreboard.png
+====================================================================
+CAPTION
+The continental scoreboard: 20 African countries by civilian nuclear
+program status — one operating (South Africa), one under construction
+(Egypt), seven preparing, ten exploring, and DR Congo with research
+applications only.
+
+PLACEMENT
+As a lede/opening graphic near the top of the piece to set the scene.
+
+====================================================================
+CREDIT/SOURCE TEXT (for all three, in the graphic footers)
+====================================================================
+"Source: AfrPowerOS open dataset (data/afrpoweros.json) · Verified
+2026-08-16 · Credit: AfrPowerOS — open, cited data on Africa's
+civilian nuclear programs · CC BY 4.0"
+
+All three graphics also carry this credit line in their image footer.
+JPG versions are available on request.
