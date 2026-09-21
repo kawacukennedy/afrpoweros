@@ -79,6 +79,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     figure.
   - Kenya planned capacity updated to ~2,000 MW first plant (KenGen–NuPEA MoU,
     December 2025, scaling to 6,000 MW), replacing 1.0 GW; added the MoU key event.
+  - Reconciled public copy: commit watch list Kenya figure updated to ~2,000 MW
+    and committed `site/data/dataset.js` snapshot regenerated from the corrected
+    JSON (the deploy build reads the JSON directly, so the live site follows).
 - South Africa key event added: four INES Level 0 airborne contamination
   events at Koeberg Unit 2 (30 Jun–16 Jul 2026) during steam-generator
   inspections; no off-site release; NNR investigation ongoing. Source: Eskom

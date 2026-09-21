@@ -31,8 +31,8 @@ Bytes) with byline, per his standing invitation (Sep 13, 2026).
   construction-phase update is a valid news item on advancement.
 
 ### AMBER — active procurement / feasibility program (monitor monthly)
-- **Kenya** — targeting ~1,000 MW in IAEA Phase 2; first grid ~2034 (some sources say 2,000
-  MW). Watch for **vendor selection** (no vendors on record yet).
+- **Kenya** — first plant ~2,000 MW (KenGen–NuPEA MoU, Dec 2025, scaling to 6,000 MW);
+  IAEA Phase 2; first grid ~2034. Watch for **vendor selection** (no vendors on record yet).
 - **Nigeria** — ~4,000 MW planned in Phase 2; watch for **vendor selection / NRC licensing
   progress** (Rosatom announcements and China MoUs on record).
 - **Uganda** — vision of 8,400 MW planned; watch for **vendor/financial agreement**.
