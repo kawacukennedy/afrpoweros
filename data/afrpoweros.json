@@ -61,7 +61,7 @@
       "iaea_milestone_phase": 2,
       "commercial_reactors_operating": 0,
       "commercial_reactors_under_construction": 0,
-      "capacity_gw_planned": 1.0,
+      "capacity_gw_planned": 2.0,
       "first_grid_target_year": 2034,
       "research_reactor": null,
       "regulator": "Kenya Nuclear Regulatory Authority (KNRA)",
@@ -72,8 +72,13 @@
       ],
       "electricity_access_pct": 75.0,
       "installed_capacity_mw": 3300.0,
-      "notes": "Completed Phase 1 of the IAEA milestones (2018) and progressed site evaluation (IAEA SEED mission). At ICONE 2026 (Nairobi) NuPEA announced a target of first nuclear generation by 2034. Site and vendor selection not finalised.",
+      "notes": "Completed Phase 1 of the IAEA milestones (2018) and progressed site evaluation (IAEA SEED mission). First plant ~2,000 MW planned (KenGen–NuPEA MoU, Dec 2025, with plans to scale to 6,000 MW); construction target 2027 and first grid generation by 2034. Site and vendor selection not finalised.",
       "key_events": [
+        {
+          "date": "2025-12",
+          "title": "KenGen–NuPEA MoU designates KenGen as owner-operator of ~2,000 MW first nuclear plant",
+          "source": "https://www.world-nuclear-news.org"
+        },
         {
           "date": "2026-03",
           "title": "Kenya announces target of nuclear generation on grid by 2034 (ICONE 2026, Nairobi)",
@@ -190,8 +195,8 @@
       "iaea_milestone_phase": 3,
       "commercial_reactors_operating": 2,
       "commercial_reactors_under_construction": 0,
-      "capacity_gw_planned": 2.5,
-      "first_grid_target_year": 2032,
+      "capacity_gw_planned": 5.2,
+      "first_grid_target_year": 2039,
       "research_reactor": "SAFARI-1 (20 MW tank-in-pool)",
       "regulator": "National Nuclear Regulator (NNR)",
       "implementing_agency": "Eskom (Koeberg) / Department of Mineral and Petroleum Resources / NNEECC",
@@ -202,17 +207,22 @@
       ],
       "electricity_access_pct": 92.0,
       "installed_capacity_mw": 47000.0,
-      "notes": "Only African country with an operating commercial nuclear power plant (Koeberg Units 1 & 2, 1,860 MW net total). The 2032 grid target refers to IRP 2025's plan for 2,500 MW of *new* nuclear capacity — separate from existing Koeberg operations. Unit 2 licence extended to 2044 (May 2025). Strong SME base and PBMR legacy. Procurement route for new build not yet finalised.",
+      "notes": "Only African country with an operating commercial nuclear power plant (Koeberg Units 1 & 2, 1,860 MW net total). The 2039 grid target refers to IRP 2025's plan for 5,200 MW of *new* nuclear capacity by 2039 (cabinet-approved October 2025, potential expansion to 10,000 MW) — separate from existing Koeberg operations. Koeberg licence positions: Unit 1 extended to 21 July 2044 (granted July 2024), Unit 2 extended to 9 November 2045 (granted November 2025). Strong SME base and PBMR legacy. Procurement route for new build not yet finalised.",
       "key_events": [
         {
-          "date": "2025-05",
-          "title": "Koeberg Unit 2 operating licence extended to 2044",
-          "source": "https://www.world-nuclear-news.org"
+          "date": "2024-07",
+          "title": "Koeberg Unit 1 operating licence extended to 21 July 2044",
+          "source": "https://www.world-nuclear-news.org/articles/koeberg-1-cleared-for-extended-operation"
         },
         {
-          "date": "2025-09",
-          "title": "South Africa publishes IRP 2025 with 2,500 MW new nuclear by 2032",
-          "source": "https://www.world-nuclear-news.org"
+          "date": "2025-11",
+          "title": "Koeberg Unit 2 operating licence extended to 9 November 2045",
+          "source": "http://eskom.co.za/koeberg-nuclear-power-station-secures-20-year-licence-extension-reinforcing-south-africas-energy-future-both-units-to-deliver-1860mw-of-baseload-power-for-a-further-20-years"
+        },
+        {
+          "date": "2025-10",
+          "title": "South Africa's cabinet approves IRP 2025 with 5,200 MW new nuclear by 2039",
+          "source": "https://www.world-nuclear-news.org/articles/south-african-government-approves-draft-2025-irp"
         },
         {
           "date": "2025",

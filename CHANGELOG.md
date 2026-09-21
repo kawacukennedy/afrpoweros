@@ -70,6 +70,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   and `robots.txt` emitted by the build; canonical + robots meta injected on
   newsletter pages; `map-screenshot.png` copied to the deploy root for social
   share previews.
+- Corrected three stale South Africa/Kenya records (data review by iLands):
+  - Koeberg licence dates fixed to unit-accurate figures: Unit 1 extended to
+    21 July 2044 (granted July 2024); Unit 2 extended to 9 November 2045
+    (granted November 2025).
+  - South Africa planned new nuclear updated to IRP 2025's 5,200 MW by 2039
+    (cabinet-approved October 2025), replacing the stale 2,500 MW / 2032 draft
+    figure.
+  - Kenya planned capacity updated to ~2,000 MW first plant (KenGen–NuPEA MoU,
+    December 2025, scaling to 6,000 MW), replacing 1.0 GW; added the MoU key event.
 - South Africa key event added: four INES Level 0 airborne contamination
   events at Koeberg Unit 2 (30 Jun–16 Jul 2026) during steam-generator
   inspections; no off-site release; NNR investigation ongoing. Source: Eskom
