@@ -14,7 +14,10 @@
       "research_reactor": null,
       "regulator": "Rwanda Atomic Energy Board (RAEB)",
       "implementing_agency": "Rwanda Atomic Energy Board (RAEB) / Ministry of Infrastructure (MININFRA)",
-      "vendors": ["Dual Fluid Energy", "Rosatom"],
+      "vendors": [
+        "Dual Fluid Energy",
+        "Rosatom"
+      ],
       "agreements": [
         "Russia-Rwanda agreement on nuclear energy cooperation (2025)",
         "Rwanda-Dual Fluid Energy agreement (2024)"
@@ -115,7 +118,14 @@
       "research_reactor": "GHARR-1 (30 kW miniature neutron source reactor)",
       "regulator": "Nuclear Regulatory Authority (NRA)",
       "implementing_agency": "Nuclear Power Ghana (NPG) / Ghana Atomic Energy Commission (GAEC)",
-      "vendors": ["EDF (France)", "NuScale / GE-Hitachi / Regnum (United States)", "KEPCO/KHNP (South Korea)", "CNNC/CGN (China)", "Rosatom (Russia)", "Laurentis Energy Partners / Ontario Power Generation (Canada)"],
+      "vendors": [
+        "EDF (France)",
+        "NuScale / GE-Hitachi / Regnum (United States)",
+        "KEPCO/KHNP (South Korea)",
+        "CNNC/CGN (China)",
+        "Rosatom (Russia)",
+        "Laurentis Energy Partners / Ontario Power Generation (Canada)"
+      ],
       "agreements": [
         "Vendor EOI finalists announced (March 2025) pending selection",
         "IAEA Integrated Nuclear Infrastructure Review support"
@@ -160,7 +170,9 @@
       "research_reactor": "ETRR-1 (2 MW) and ETRR-2 (22 MW)",
       "regulator": "Egyptian Nuclear and Radiological Regulatory Authority (ENRRA)",
       "implementing_agency": "Nuclear Power Plants Authority (NPPA)",
-      "vendors": ["Rosatom"],
+      "vendors": [
+        "Rosatom"
+      ],
       "agreements": [
         "Russia-Egypt intergovernmental agreement (2015)",
         "Russian state loan facility (~USD 25 billion)"
@@ -455,7 +467,9 @@
       "research_reactor": "NUR (1 MW pool) and Es-Salam (15 MW heavy-water)",
       "regulator": "Commissariat à l'Énergie Atomique (COMENA)",
       "implementing_agency": "Commissariat à l'Énergie Atomique (COMENA)",
-      "vendors": ["Rosatom (SMR feasibility discussions)"],
+      "vendors": [
+        "Rosatom (SMR feasibility discussions)"
+      ],
       "agreements": [
         "IAEA country programme framework"
       ],
@@ -614,7 +628,9 @@
       "research_reactor": null,
       "regulator": "Radiation Protection Authority of Zimbabwe (RPAZ)",
       "implementing_agency": "Ministry of Energy and Power Development",
-      "vendors": ["KHNP (i-SMR evaluation MoU)"],
+      "vendors": [
+        "KHNP (i-SMR evaluation MoU)"
+      ],
       "agreements": [
         "Zimbabwe-KHNP MoU on i-SMR deployment evaluation (2025)"
       ],
@@ -806,6 +822,50 @@
       ],
       "confidence": "Verified",
       "last_verified": "2026-08-16"
+    },
+    {
+      "country": "Togo",
+      "region": "West Africa",
+      "program_status": "Exploring",
+      "iaea_milestone_phase": null,
+      "commercial_reactors_operating": 0,
+      "commercial_reactors_under_construction": 0,
+      "capacity_gw_planned": null,
+      "first_grid_target_year": null,
+      "research_reactor": null,
+      "regulator": "Atomic Energy Commission (established January 2025)",
+      "implementing_agency": "Council of Ministers (Office of the Presidency)",
+      "vendors": [],
+      "agreements": [
+        "IAEA cooperation framework (signed 2026, Vienna)",
+        "Declaration to Triple Nuclear Energy by 2050 (2026)"
+      ],
+      "electricity_access_pct": null,
+      "installed_capacity_mw": null,
+      "notes": "Togo 'has begun preparations for the introduction of nuclear technologies', per its President of the Council of Ministers addressing the World Nuclear Symposium (London, Sept 2026). IAEA member since 2012; Atomic Energy Commission established January 2025; new IAEA cooperation framework signed in Vienna (2026). Announced it will host the next Nuclear Energy Innovation Summit for Africa (NEISA) in Lomé, 1-3 June 2027, and signed the Declaration to Triple Nuclear Energy by 2050. No capacity target, milestone phase, or procurement decision.",
+      "key_events": [
+        {
+          "date": "2026-09",
+          "title": "Togo announces NEISA 2027 host and nuclear preparations at World Nuclear Symposium",
+          "source": "https://www.world-nuclear-news.org/articles/africa-must-be-part-of-global-nuclear-renaissance-says-togolese-leader"
+        },
+        {
+          "date": "2026",
+          "title": "Togo signs new IAEA cooperation framework in Vienna",
+          "source": "https://www.world-nuclear-news.org/articles/africa-must-be-part-of-global-nuclear-renaissance-says-togolese-leader"
+        },
+        {
+          "date": "2025-01",
+          "title": "Togo establishes its Atomic Energy Commission",
+          "source": "https://www.world-nuclear-news.org/articles/africa-must-be-part-of-global-nuclear-renaissance-says-togolese-leader"
+        }
+      ],
+      "sources": [
+        "https://www.world-nuclear-news.org/articles/africa-must-be-part-of-global-nuclear-renaissance-says-togolese-leader",
+        "https://www.iaea.org"
+      ],
+      "confidence": "Verified",
+      "last_verified": "2026-09-13"
     }
   ]
 }
