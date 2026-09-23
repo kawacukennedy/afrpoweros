@@ -27,6 +27,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Expanded dataset to 20 countries: added Ethiopia, Sudan, Tunisia, Zimbabwe,
   Senegal, Mali, Niger, Eswatini and DR Congo (all `Verified`, with IAEA,
   government and industry sources).
+- Expanded dataset to 21 countries: added Togo (`Exploring`, `Verified`) with
+  IAEA membership (2012), Atomic Energy Commission (Jan 2025), 2026 IAEA
+  cooperation framework, NEISA 2027 host role in Lomé, and signing of the
+  Declaration to Triple Nuclear Energy by 2050, sourced from World Nuclear News.
 - Site homepage: live stats row (countries, verified records, active
   programmes) and a "Contribute" call-to-action section with links to issues
   and the contribution guide.
