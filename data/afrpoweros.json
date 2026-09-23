@@ -254,30 +254,26 @@
       "commercial_reactors_operating": 0,
       "commercial_reactors_under_construction": 0,
       "capacity_gw_planned": 1.0,
-      "first_grid_target_year": 2030,
+      "first_grid_target_year": 2034,
       "research_reactor": "GHARR-1 (30 kW miniature neutron source reactor)",
       "regulator": "Nuclear Regulatory Authority (NRA)",
       "implementing_agency": "Nuclear Power Ghana (NPG) / Ghana Atomic Energy Commission (GAEC)",
       "vendors": [
-        "EDF (France)",
-        "NuScale / GE-Hitachi / Regnum (United States)",
-        "KEPCO/KHNP (South Korea)",
-        "CNNC/CGN (China)",
-        "Rosatom (Russia)",
-        "Laurentis Energy Partners / Ontario Power Generation (Canada)"
+        "NuScale Power / Regnum Technology Group (United States)",
+        "CNNC (China)"
       ],
       "agreements": [
-        "Vendor EOI finalists announced (March 2025) pending selection",
+        "Framework agreements with selected vendors (NuScale/Regnum SMR, CNNC large reactor) — March 2025",
         "IAEA Integrated Nuclear Infrastructure Review support"
       ],
       "electricity_access_pct": 85.0,
       "installed_capacity_mw": 5400.0,
-      "notes": "Completed Phase 1 of IAEA milestones (2017); in Phase 2. Announced finalist vendors for a ~1 GW first plant in March 2025. Site evaluation ongoing. Africa's first research reactor operator (GHARR-1).",
+      "notes": "Completed Phase 1 of IAEA milestones (2017); in Phase 2. Selected NuScale/Regnum (US) and CNNC (China) as vendors for its first nuclear plants in March 2025, with framework agreements signed but no formal construction contract; plans ~1 GW of nuclear on the grid by 2034. Site evaluation and an IAEA SEED mission are ongoing. Africa's first research reactor operator (GHARR-1).",
       "key_events": [
         {
           "date": "2025-03",
-          "title": "Ghana announces shortlist of vendors for first nuclear power plant",
-          "source": "https://www.world-nuclear-news.org"
+          "title": "Ghana selects US and Chinese vendors for first nuclear power plants (framework agreements)",
+          "source": "https://africacommoditiesreport.com/2025/03/28/ghana-taps-us-china-as-vendors-for-first-nuclear-plants/"
         },
         {
           "date": "2017",
@@ -291,12 +287,84 @@
         }
       ],
       "sources": [
-        "https://www.iaea.org",
-        "https://www.world-nuclear-news.org",
+        "https://africacommoditiesreport.com/2025/03/28/ghana-taps-us-china-as-vendors-for-first-nuclear-plants/",
+        "https://www.world-nuclear-news.org/articles/ghanas-site-selection-process-for-first-nuclear-plant-assessed-by-iaea",
+        "https://www.world-nuclear-news.org/articles/ghana-impresses-integrated-nuclear-infrastructure",
+        "https://www.world-nuclear-news.org/articles/ghanaian-research-reactor-now-set-to-run-on-leu",
+        "https://www.iaea.org/services/review-missions/seed",
         "https://www.nra.org.gh"
       ],
       "confidence": "Verified",
-      "last_verified": "2026-08-16"
+      "last_verified": "2026-08-16",
+      "assertions": [
+        {
+          "field": "program_status",
+          "value": "Preparing",
+          "confidence": "Verified",
+          "source_url": "https://africacommoditiesreport.com/2025/03/28/ghana-taps-us-china-as-vendors-for-first-nuclear-plants/",
+          "observation_date": "2025-03",
+          "verification_date": "2026-09-23"
+        },
+        {
+          "field": "iaea_milestone_phase",
+          "value": 2,
+          "confidence": "Inference",
+          "source_url": "https://www.world-nuclear-news.org/articles/ghana-impresses-integrated-nuclear-infrastructure",
+          "observation_date": "2019-10",
+          "verification_date": "2026-09-23"
+        },
+        {
+          "field": "capacity_gw_planned",
+          "value": 1.0,
+          "confidence": "Verified",
+          "source_url": "https://africacommoditiesreport.com/2025/03/28/ghana-taps-us-china-as-vendors-for-first-nuclear-plants/",
+          "observation_date": "2025-03",
+          "verification_date": "2026-09-23"
+        },
+        {
+          "field": "first_grid_target_year",
+          "value": 2034,
+          "confidence": "Verified",
+          "source_url": "https://africacommoditiesreport.com/2025/03/28/ghana-taps-us-china-as-vendors-for-first-nuclear-plants/",
+          "observation_date": "2025-03",
+          "verification_date": "2026-09-23"
+        },
+        {
+          "field": "research_reactor",
+          "value": "GHARR-1 (30 kW miniature neutron source reactor)",
+          "confidence": "Verified",
+          "source_url": "https://www.world-nuclear-news.org/articles/ghanaian-research-reactor-now-set-to-run-on-leu",
+          "observation_date": "2017-07",
+          "verification_date": "2026-09-23"
+        },
+        {
+          "field": "vendors",
+          "value": [
+            "NuScale Power / Regnum Technology Group (United States)",
+            "CNNC (China)"
+          ],
+          "confidence": "Verified",
+          "source_url": "https://africacommoditiesreport.com/2025/03/28/ghana-taps-us-china-as-vendors-for-first-nuclear-plants/",
+          "observation_date": "2025-03",
+          "verification_date": "2026-09-23"
+        },
+        {
+          "field": "commercial_reactors_operating",
+          "value": 0,
+          "confidence": "Inference",
+          "source_url": "https://africacommoditiesreport.com/2025/03/28/ghana-taps-us-china-as-vendors-for-first-nuclear-plants/",
+          "observation_date": "2025-03",
+          "verification_date": "2026-09-23"
+        },
+        {
+          "field": "commercial_reactors_under_construction",
+          "value": 0,
+          "confidence": "Inference",
+          "source_url": "https://africacommoditiesreport.com/2025/03/28/ghana-taps-us-china-as-vendors-for-first-nuclear-plants/",
+          "observation_date": "2025-03",
+          "verification_date": "2026-09-23"
+        }
+      ]
     },
     {
       "country": "Egypt",
@@ -557,8 +625,8 @@
       "implementing_agency": "Ministry of Energy and Mineral Development",
       "vendors": [],
       "agreements": [
-        "Russia-Uganda civil nuclear cooperation MoU",
-        "IAEA country programme framework"
+        "KHNP site-evaluation contract for Buyende site (May 2025)",
+        "China-Uganda nuclear cooperation MoU (2018)"
       ],
       "electricity_access_pct": 45.0,
       "installed_capacity_mw": 1400.0,
@@ -586,13 +654,68 @@
         }
       ],
       "sources": [
-        "https://www.iaea.org",
+        "https://www.world-nuclear-news.org/articles/korea-to-evaluate-proposed-ugandan-nuclear-power-plant-site",
+        "https://www.world-nuclear-news.org/articles/china-and-uganda-agree-to-nuclear-cooperation",
+        "https://www.world-nuclear-news.org/articles/iaea-completes-ugandan-nuclear-infrastructure-revi",
         "https://www.monitor.co.ug/uganda/news/national/buyende-nuclear-power-plant-to-generate-initial-1-000mw-by-2031--5060254",
         "https://govinfohub.go.ug/index.php/2025/06/04/uganda-moves-closer-to-nuclear-energy-as-buyende-plant-site-gets-contractor/",
         "https://www.energyandminerals.go.ug"
       ],
       "confidence": "Verified",
-      "last_verified": "2026-08-16"
+      "last_verified": "2026-08-16",
+      "assertions": [
+        {
+          "field": "program_status",
+          "value": "Preparing",
+          "confidence": "Verified",
+          "source_url": "https://www.world-nuclear-news.org/articles/korea-to-evaluate-proposed-ugandan-nuclear-power-plant-site",
+          "observation_date": "2025-05",
+          "verification_date": "2026-09-23"
+        },
+        {
+          "field": "iaea_milestone_phase",
+          "value": 2,
+          "confidence": "Inference",
+          "source_url": "https://www.world-nuclear-news.org/articles/iaea-completes-ugandan-nuclear-infrastructure-revi",
+          "observation_date": "2021-12",
+          "verification_date": "2026-09-23"
+        },
+        {
+          "field": "capacity_gw_planned",
+          "value": 8.4,
+          "confidence": "Verified",
+          "source_url": "https://govinfohub.go.ug/index.php/2025/06/04/uganda-moves-closer-to-nuclear-energy-as-buyende-plant-site-gets-contractor/",
+          "observation_date": "2025-06",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "first_grid_target_year",
+          "value": 2031,
+          "confidence": "Verified",
+          "source_url": "https://www.monitor.co.ug/uganda/news/national/buyende-nuclear-power-plant-to-generate-initial-1-000mw-by-2031--5060254",
+          "observation_date": "2025-05",
+          "verification_date": "2026-08-16"
+        },
+        {
+          "field": "vendors",
+          "value": [],
+          "confidence": "Inference",
+          "source_url": "https://www.world-nuclear-news.org/articles/korea-to-evaluate-proposed-ugandan-nuclear-power-plant-site",
+          "observation_date": "2025-05",
+          "verification_date": "2026-09-23"
+        },
+        {
+          "field": "agreements",
+          "value": [
+            "KHNP site-evaluation contract for Buyende site (May 2025)",
+            "China-Uganda nuclear cooperation MoU (2018)"
+          ],
+          "confidence": "Verified",
+          "source_url": "https://www.world-nuclear-news.org/articles/korea-to-evaluate-proposed-ugandan-nuclear-power-plant-site",
+          "observation_date": "2025-05",
+          "verification_date": "2026-09-23"
+        }
+      ]
     },
     {
       "country": "Tanzania",
@@ -1029,7 +1152,51 @@
         "https://arsn.sn/larsn/"
       ],
       "confidence": "Verified",
-      "last_verified": "2026-08-16"
+      "last_verified": "2026-08-16",
+      "assertions": [
+        {
+          "field": "program_status",
+          "value": "Exploring",
+          "confidence": "Verified",
+          "source_url": "https://world-nuclear.org/net-zero-nuclear/interviews/interview-at-cop30-yaye-catherine-diop-director-of-energy-transition-ministry-of-energy-petroleum-and-mines-senegal",
+          "observation_date": "2025-11",
+          "verification_date": "2026-09-23"
+        },
+        {
+          "field": "agreements",
+          "value": [
+            "Declaration to Triple Nuclear Energy by 2050 (COP30, 2025)"
+          ],
+          "confidence": "Verified",
+          "source_url": "https://world-nuclear.org/net-zero-nuclear/interviews/interview-at-cop30-yaye-catherine-diop-director-of-energy-transition-ministry-of-energy-petroleum-and-mines-senegal",
+          "observation_date": "2025-11",
+          "verification_date": "2026-09-23"
+        },
+        {
+          "field": "commercial_reactors_operating",
+          "value": 0,
+          "confidence": "Inference",
+          "source_url": "https://world-nuclear.org/net-zero-nuclear/interviews/interview-at-cop30-yaye-catherine-diop-director-of-energy-transition-ministry-of-energy-petroleum-and-mines-senegal",
+          "observation_date": "2025-11",
+          "verification_date": "2026-09-23"
+        },
+        {
+          "field": "commercial_reactors_under_construction",
+          "value": 0,
+          "confidence": "Inference",
+          "source_url": "https://world-nuclear.org/net-zero-nuclear/interviews/interview-at-cop30-yaye-catherine-diop-director-of-energy-transition-ministry-of-energy-petroleum-and-mines-senegal",
+          "observation_date": "2025-11",
+          "verification_date": "2026-09-23"
+        },
+        {
+          "field": "research_reactor",
+          "value": null,
+          "confidence": "Inference",
+          "source_url": "https://world-nuclear.org/net-zero-nuclear/interviews/interview-at-cop30-yaye-catherine-diop-director-of-energy-transition-ministry-of-energy-petroleum-and-mines-senegal",
+          "observation_date": "2025-11",
+          "verification_date": "2026-09-23"
+        }
+      ]
     },
     {
       "country": "Mali",

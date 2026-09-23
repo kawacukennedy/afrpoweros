@@ -46,7 +46,8 @@ and in March 2026 announced a target of first nuclear generation by 2034, with r
 2,000 MW of capacity planned. Site and vendor selection remain open.
 
 **Ghana**, the continent's first research-reactor operator (GHARR-1), completed Phase 1 in
-2017 and in March 2025 named finalist vendors for a first plant of about 1 GW.
+2017 and in March 2025 selected NuScale/Regnum (US) and CNNC (China) as vendors for a first
+plant of about 1 GW, with framework agreements signed but no construction contract yet.
 
 **Rwanda** has advanced furthest among East African Phase 2 countries, completing an IAEA
 INIR Phase 2 review and follow-up mission in March 2026 and signing a phased roadmap with
