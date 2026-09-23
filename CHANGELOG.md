@@ -31,6 +31,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   IAEA membership (2012), Atomic Energy Commission (Jan 2025), 2026 IAEA
   cooperation framework, NEISA 2027 host role in Lomé, and signing of the
   Declaration to Triple Nuclear Energy by 2050, sourced from World Nuclear News.
+- Added assertion-level confidence labels (`assertions` array) for the first
+  five records (Rwanda, Kenya, Egypt, South Africa, Nigeria): every material
+  claim now carries its own source URL, confidence label, observation date and
+  verification date, rendered as a "Claims and confidence labels" section on
+  each country page. Schema, validator and site builder extended
+  (`data/assertions-schema.json`).
+  - South Africa first-grid assertion corrected to 2039 and Kenya's planned
+    capacity upgraded to `Verified` against the KenGen–NuPEA MoU source, to
+    match the iLands-corrected records.
+  - Rwanda electricity access corrected to 75% (World Bank, March 2024), the
+    source cited by the assertion.
 - Site homepage: live stats row (countries, verified records, active
   programmes) and a "Contribute" call-to-action section with links to issues
   and the contribution guide.
