@@ -82,6 +82,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Reconciled public copy: commit watch list Kenya figure updated to ~2,000 MW
     and committed `site/data/dataset.js` snapshot regenerated from the corrected
     JSON (the deploy build reads the JSON directly, so the live site follows).
+- Corrected Uganda record (follow-up review by iLands): the 2031 date applies to
+  the initial ~1,000 MW of the Buyende NPP, not the plant's full ~8,400 MW
+  capacity. Note rewritten, KHNP site-evaluation contract (May 2025) and full
+  capacity confirmation (June 2025) added as key events with Monitor and gov
+  info hub sources; published post and graphics prompt wording reconciled;
+  `site/data/dataset.js` snapshot regenerated.
 - South Africa key event added: four INES Level 0 airborne contamination
   events at Koeberg Unit 2 (30 Jun–16 Jul 2026) during steam-generator
   inspections; no off-site release; NNR investigation ongoing. Source: Eskom
