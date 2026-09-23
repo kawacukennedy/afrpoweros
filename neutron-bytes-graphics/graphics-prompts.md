@@ -83,7 +83,7 @@ CHART AREA
   height 64 px, so the viewer always sees the full scale.
 
 BARS (value, color, row):
-  Row 0  Uganda             8.4 GW  #1D4ED8   (Preparing)    first-grid year 2031
+  Row 0  Uganda             8.4 GW  #1D4ED8   (Preparing)    first 1,000 MW by 2031
   Row 1  South Africa       5.2 GW  #1B4332   (Operating)    first-grid year 2036
   Row 2  Egypt              4.8 GW  #B85C1C   (Under construction)  target 2028
   Row 3  Nigeria            4.0 GW  #1D4ED8   (Preparing)    year n/a

@@ -54,9 +54,10 @@ Russia in 2025 aimed at an initial nuclear phase around 2030, including a first-
 Dual Fluid Energy reactor feasibility study.
 
 **Uganda** and **Tanzania** complete the middle tier. Uganda's Vision 2040 targets 24 GW by
-2040, with near-term government/IAEA reporting around 8,400 MW by 2031; it entered
-Phase 2 in 2023. Tanzania finished Phase 1 in 2019, completed its INIR Phase 2 review in
-2023, and has identified Namtumbo as a candidate site, with a 2026 readiness assessment.
+2040, and the initial ~1,000 MW of the Buyende NPP is targeted by 2031 — on a site planned
+for ~8,400 MW with phased commissioning; it entered Phase 2 in 2023. Tanzania finished Phase
+1 in 2019, completed its INIR Phase 2 review in 2023, and has identified Namtumbo as a
+candidate site, with a 2026 readiness assessment.
 
 **Nigeria**, the continent's most populous country with a large grid but low electricity
 access, completed Phase 1 in 2009 and in 2025 renewed small modular reactor interest with

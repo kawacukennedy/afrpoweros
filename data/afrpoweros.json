@@ -263,8 +263,18 @@
       ],
       "electricity_access_pct": 45.0,
       "installed_capacity_mw": 1400.0,
-      "notes": "Vision 2040 targets 24 GW of nuclear by 2040; near-term plan ~8,400 MW by 2031 per government/IAEA reporting. Completed Phase 1 of IAEA milestones (2019); in Phase 2 with partner support. No vendor selected.",
+      "notes": "Buyende NPP: the initial ~1,000 MW is targeted by 2031 (Minister Nankabirwa, May 2025) — the 2031 date applies to the first unit, not the full plant. The full Buyende plant capacity is planned at ~8,400 MW with phased commissioning (June 2025). Long-term Vision 2040 target of 24 GW nuclear. KHNP contracted (May 2025) for site evaluation ahead of feasibility; no reactor vendor selected. Completed Phase 1 of IAEA milestones (2019); in Phase 2 with partner support.",
       "key_events": [
+        {
+          "date": "2025-05",
+          "title": "Uganda signs KHNP site evaluation contract for Buyende NPP; initial 1,000 MW targeted by 2031",
+          "source": "https://www.monitor.co.ug/uganda/news/national/buyende-nuclear-power-plant-to-generate-initial-1-000mw-by-2031--5060254"
+        },
+        {
+          "date": "2025-06",
+          "title": "Government confirms Buyende plant full capacity of 8,400 MW; KHNP leads assessment with Dohwa Engineering and KEPCO E&C",
+          "source": "https://govinfohub.go.ug/index.php/2025/06/04/uganda-moves-closer-to-nuclear-energy-as-buyende-plant-site-gets-contractor/"
+        },
         {
           "date": "2023",
           "title": "Uganda progresses to Phase 2 with IAEA and partner support for nuclear infrastructure",
@@ -278,7 +288,8 @@
       ],
       "sources": [
         "https://www.iaea.org",
-        "https://www.world-nuclear-news.org",
+        "https://www.monitor.co.ug/uganda/news/national/buyende-nuclear-power-plant-to-generate-initial-1-000mw-by-2031--5060254",
+        "https://govinfohub.go.ug/index.php/2025/06/04/uganda-moves-closer-to-nuclear-energy-as-buyende-plant-site-gets-contractor/",
         "https://www.energyandminerals.go.ug"
       ],
       "confidence": "Verified",
