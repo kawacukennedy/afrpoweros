@@ -88,7 +88,7 @@ BARS (value, color, row):
   Row 2  Egypt              4.8 GW  #B85C1C   (Under construction)  target 2028
   Row 3  Nigeria            4.0 GW  #1D4ED8   (Preparing)    year n/a
   Row 4  Kenya              2.0 GW  #1D4ED8   (Preparing)    first-grid year 2034
-  Row 5  Ghana              1.0 GW  #1D4ED8   (Preparing)    first-grid year 2030
+  Row 5  Ghana              1.0 GW  #1D4ED8   (Preparing)    first-grid year 2034
   Row 6  Zambia             1.0 GW  #64748B   (Exploring)    year n/a
   Zimbabwe/Eswatini etc. are Exploring but have no announced GW — do NOT draw them.
 - Bar width = value GW x 130 px (so Uganda = 8.4x130 = 1092 px, drawn from x=520,

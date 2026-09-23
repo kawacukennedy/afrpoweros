@@ -42,6 +42,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     match the iLands-corrected records.
   - Rwanda electricity access corrected to 75% (World Bank, March 2024), the
     source cited by the assertion.
+- Extended assertion-level confidence labels to Ghana, Uganda and Senegal: every
+  material claim for these records now carries its own source URL, confidence,
+  observation date and verification date. Sources were individually verified
+  (WNN, govinfohub.go.ug, Monitor, World Nuclear Association interview, GNA via
+  Africa Commodities Report).
+  - Ghana corrected: the March 2025 vendor announcement selected NuScale/Regnum
+    (US) and CNNC (China) with framework agreements (no construction contract),
+    replacing the six-company EOI list, and the grid target is ~1 GW by 2034,
+    not 2030. Record, CSV, watch list and published-post copy reconciled.
+  - Uganda: only agreements traceable to verified sources are retained (KHNP
+    site-evaluation contract, China-Uganda MoU); the weakly-sourced Russia MoU
+    and IAEA country programme framework claims were dropped per the
+    no-unverified-claims rule.
 - Site homepage: live stats row (countries, verified records, active
   programmes) and a "Contribute" call-to-action section with links to issues
   and the contribution guide.

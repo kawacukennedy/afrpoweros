@@ -19,9 +19,9 @@ Bytes) with byline, per his standing invitation (Sep 13, 2026).
 ## Watch status of tracked countries (from `data/afrpoweros.json`, Sep 2026)
 
 ### RED — closest to a real commitment (monitor weekly)
-- **Ghana** — formal RFP launched for its first nuclear plant; shortlisted vendors include
-  EDF (FR), NuScale / GE-Hitachi / Regnum (US), KEPCO/KHNP (KR), CNNC/CGN (CN), Rosatom (RU),
-  Laurentis Energy Partners / OPG (CA). Next move: **vendor selection / preferred bidder**.
+- **Ghana** — selected NuScale/Regnum (US) and CNNC (CN) as vendors for its first nuclear
+  plants in March 2025, signing framework agreements (no formal construction contract yet).
+  Plans ~1 GW of nuclear on the grid by 2034. Next move: **site evaluation / contract award**.
   This is the single most likely near-term story.
 - **Rwanda** — Dual Fluid Energy and Rosatom agreements on record; Rwanda targets ~1 GW.
   Watch for **construction start, site works, or firm order** (not partnership MoUs).
