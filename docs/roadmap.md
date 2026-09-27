@@ -10,6 +10,7 @@ contributor interest and real-world events.
       Uganda, Tanzania, Nigeria, Zambia, Morocco, Algeria).
 - [x] Dataset v0.2: expanded to 20 countries (added Ethiopia, Sudan, Tunisia,
       Zimbabwe, Senegal, Mali, Niger, Eswatini, DR Congo).
+- [x] Dataset v0.3: 21 countries (added Togo).
 - [ ] Coverage of all African countries with any nuclear/energy program
       (target: every IAEA member state with a program; explicit `None` entries
       for the rest of the continent).

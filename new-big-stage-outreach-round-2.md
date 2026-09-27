@@ -37,7 +37,7 @@ No fabricated data, sources, or dates. Signature perspective: Kennedy Kawacu, da
 > Namibia school-outreach call — great work building nuclear literacy on the ground.
 >
 > I'm the creator of AfrPowerOS, an open dataset tracking every African country's civilian
-> nuclear program — every record cited with a confidence label (20 countries so far, free
+> nuclear program — every record cited with a confidence label (21 countries so far, free
 > and machine-readable). Given Namibia's place as one of the world's leading uranium
 > producers and its growing nuclear workforce, I'd love your perspective on it — and
 > whether it could be useful to the young-generation-in-nuclear community as a
@@ -136,7 +136,7 @@ No fabricated data, sources, or dates. Signature perspective: Kennedy Kawacu, da
 > you co-authored is a reference I've come back to more than once.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program — every record cited with a confidence label, 20 countries, released as JSON/CSV
+> program — every record cited with a confidence label, 21 countries, released as JSON/CSV
 > with a schema and a validator. It sits in the tradition of open-data projects like the
 > ones you've helped scale.
 >
@@ -168,7 +168,7 @@ No fabricated data, sources, or dates. Signature perspective: Kennedy Kawacu, da
 > continent's energy sector — and your work building it into a trusted name.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program — every record cited and confidence-labelled, 20 countries, free and
+> program — every record cited and confidence-labelled, 21 countries, free and
 > machine-readable. As Kenya targets first nuclear generation by 2034 and South Africa's
 > IRP 2025 calls for 5,200 MW of new nuclear, it's a timely, data-driven story on who is
 > actually exploring, preparing, building, or operating across the continent.
@@ -200,7 +200,7 @@ No fabricated data, sources, or dates. Signature perspective: Kennedy Kawacu, da
 > needs.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program — every record cited and confidence-labelled, 20 countries. With South Africa's
+> program — every record cited and confidence-labelled, 21 countries. With South Africa's
 > IRP 2025 calling for 5,200 MW of new nuclear (Koeberg extended to 2045), and neighbours
 > like Zimbabwe still exploring, there's a strong, verifiable data story here.
 >
@@ -260,7 +260,7 @@ No fabricated data, sources, or dates. Signature perspective: Kennedy Kawacu, da
 > thought you might find this timely.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program — every record cited and confidence-labelled (20 countries). Africa rarely features
+> program — every record cited and confidence-labelled (21 countries). Africa rarely features
 > in the global nuclear conversation, yet it's where much of the demand and uranium supply
 > will come from — Kenya targeting 2034, Egypt expanding El Dabaa, South Africa planning
 > 5,200 MW, and a dozen more programs at various stages.
@@ -291,7 +291,7 @@ No fabricated data, sources, or dates. Signature perspective: Kennedy Kawacu, da
 > half a million people along the way — is exactly what this dataset needs.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program, every record cited and confidence-labelled (20 countries, including Nigeria's
+> program, every record cited and confidence-labelled (21 countries, including Nigeria's
 > preparing-stage program). I think it could feed good data-backed storytelling on how
 > nuclear figures (or doesn't) in Africa's energy future.
 >
@@ -321,7 +321,7 @@ No fabricated data, sources, or dates. Signature perspective: Kennedy Kawacu, da
 > intersection most people skip, and doing it well.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program — every record cited and confidence-labelled, 20 countries, free and
+> program — every record cited and confidence-labelled, 21 countries, free and
 > machine-readable. It's built to be a reliable reference for exactly the kinds of
 > conversations your newsletter starts.
 >

@@ -12,7 +12,7 @@ Africa Energy Chamber, SEforALL, WNA, CMU-Africa, US Power Africa, Stellenbosch 
 Norrsken Kigali, KNUST).
 
 All copy is factually grounded in the dataset (`data/afrpoweros.json`, verified/sourced):
-20 African countries tracked; Kenya targeting first nuclear generation by 2034 (~2,000 MW
+21 African countries tracked; Kenya targeting first nuclear generation by 2034 (~2,000 MW
 planned); Egypt expanding El Dabaa; South Africa's IRP 2025 calling for 5,200 MW new nuclear
 by 2039 with Koeberg's licence extended to 2045. No fabricated data, sources, or dates.
 Signature perspective: Kennedy Kawacu, dataset creator.
@@ -35,7 +35,7 @@ Signature perspective: Kennedy Kawacu, dataset creator.
 > policy — including for Central & Eastern Europe — have long stood out to me.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program, every record cited and confidence-labelled (20 countries, free and
+> program, every record cited and confidence-labelled (21 countries, free and
 > machine-readable). Africa is becoming a growing chapter in the global nuclear story —
 > Kenya targets first generation by 2034, Egypt is expanding El Dabaa, and South Africa's
 > IRP 2025 plans 5,200 MW of new nuclear — yet there is no neutral, cited continental
@@ -69,7 +69,7 @@ Signature perspective: Kennedy Kawacu, dataset creator.
 > expertise an open-data project like mine needs to be trustworthy.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program, every record cited and confidence-labelled (20 countries). As more of the
+> program, every record cited and confidence-labelled (21 countries). As more of the
 > continent moves from exploration to preparation and contracts, I want the record kept
 > accurate, sourced, and neutral.
 >
@@ -100,7 +100,7 @@ Signature perspective: Kennedy Kawacu, dataset creator.
 > op-eds — is precisely where credible data matters most.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program, every record cited and confidence-labelled (20 countries). As Africa moves
+> program, every record cited and confidence-labelled (21 countries). As Africa moves
 > toward the centre of the global energy/climate conversation, I think a neutral, cited
 > reference on who is exploring, preparing, building, or operating could be useful to
 > policy work like yours.
@@ -132,7 +132,7 @@ Signature perspective: Kennedy Kawacu, dataset creator.
 > your nuclear reading list is a public service.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program, every record cited and confidence-labelled (20 countries). Africa rarely gets its
+> program, every record cited and confidence-labelled (21 countries). Africa rarely gets its
 > due in the global nuclear conversation — yet Kenya targets first generation by 2034, Egypt
 > is expanding El Dabaa, and South Africa's IRP 2025 plans 5,200 MW of new nuclear.
 >
@@ -163,7 +163,7 @@ Signature perspective: Kennedy Kawacu, dataset creator.
 > evidence-first, which is exactly how I try to build.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program, every record cited and confidence-labelled (20 countries). I think there's a
+> program, every record cited and confidence-labelled (21 countries). I think there's a
 > strong conversation here: what countries actually have programs, what "preparing" versus
 > "building" really means, and whether African grids and institutions can absorb the
 > technology.
@@ -193,7 +193,7 @@ Signature perspective: Kennedy Kawacu, dataset creator.
 > worry about nuclear reactors is exactly why this dataset exists.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program, every record cited and confidence-labelled (20 countries, free and
+> program, every record cited and confidence-labelled (21 countries, free and
 > machine-readable). It covers Kenya's 2034 target, Egypt's El Dabaa expansion, South
 > Africa's 5,200 MW IRP 2025 plan, and a dozen plus more programs at earlier stages.
 >
@@ -223,7 +223,7 @@ Signature perspective: Kennedy Kawacu, dataset creator.
 > break down reactor technologies for a general audience is a benchmark.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program, every record cited and confidence-labelled (20 countries, free and
+> program, every record cited and confidence-labelled (21 countries, free and
 > machine-readable). Africa is where many of the most consequential nuclear decisions are
 > being made — I think the data could interest your audience and support future content.
 >
@@ -254,7 +254,7 @@ Signature perspective: Kennedy Kawacu, dataset creator.
 > engage. That's a gift.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program, every record cited and confidence-labelled (20 countries). I think it could fuel
+> program, every record cited and confidence-labelled (21 countries). I think it could fuel
 > compelling content on Africa's growing nuclear landscape — and I'd genuinely welcome your
 > feedback as a fellow nuclear communicator.
 >
@@ -281,7 +281,7 @@ Signature perspective: Kennedy Kawacu, dataset creator.
 > seriously as you cover problems.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program, every record cited and confidence-labelled (20 countries). For anyone following
+> program, every record cited and confidence-labelled (21 countries). For anyone following
 > the energy transition, Africa is where the choices are being made right now — and the
 > dataset is a neutral, citable reference for that conversation.
 >
@@ -311,7 +311,7 @@ Signature perspective: Kennedy Kawacu, dataset creator.
 > Investor — is the exact approach I believe in.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program, every record cited and confidence-labelled (20 countries, free and
+> program, every record cited and confidence-labelled (21 countries, free and
 > machine-readable). It tracks who's exploring, preparing, building, or operating — a
 > natural dataset for scrutiny, and I suspect there are stories in it worth investigating.
 >
@@ -340,7 +340,7 @@ Signature perspective: Kennedy Kawacu, dataset creator.
 > exactly the careful, technical lens this project needs.
 >
 > I built AfrPowerOS, an open dataset tracking every African country's civilian nuclear
-> program, every record cited and confidence-labelled (20 countries). Given your science
+> program, every record cited and confidence-labelled (21 countries). Given your science
 > background, I'd value your honest read on how the dataset is structured and explained —
 > and whether it could support your writing on nuclear energy.
 >

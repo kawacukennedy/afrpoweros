@@ -174,11 +174,11 @@ CANVAS: 2000 x 1600 px, background #FBF9F7.
 HEADER BLOCK (top-left at x = 96)
 - y=96  : kicker "AFRPOWEROS · OPEN DATA"
 - y=142 : H1 "The Continental Scoreboard"
-- y=196 : subtitle "20 African countries by civilian nuclear program status"
+- y=196 : subtitle "21 African countries by civilian nuclear program status"
 
 TOTAL CHIP (top-right)
 - Pill at x = 1500..1904, y = 96..152: fill #16181D, fully rounded (radius 28 px),
-  text centered: "20 COUNTRIES TRACKED" 15 px weight 600, #FFFFFF, uppercase,
+  text centered: "21 COUNTRIES TRACKED" 15 px weight 600, #FFFFFF, uppercase,
   letter-spacing +1.5 px.
 
 FIVE STATUS ROWS

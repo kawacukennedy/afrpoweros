@@ -120,3 +120,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   events at Koeberg Unit 2 (30 Jun–16 Jul 2026) during steam-generator
   inspections; no off-site release; NNR investigation ongoing. Source: Eskom
   and NNR statements, plus multiple South African news outlets.
+- Reconciled stale country counts in public copy. The dataset has held 21
+  countries since Togo was added, but the README badge, site homepage
+  (copy and JSON-LD description), published post, graphics prompts, captions
+  and status-scoreboard renderer still said 20, and the exploring count was one
+  short. All now read 21 countries / 11 exploring. Dated newsletter issues
+  were left as published historical snapshots. `docs/roadmap.md` records the
+  expansion as v0.3 rather than rewriting the v0.2 history.

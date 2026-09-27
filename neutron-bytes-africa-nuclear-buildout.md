@@ -7,9 +7,9 @@ For decades, the story of nuclear energy in Africa was a short one: a single ope
 station in South Africa and, for nearly everyone else, ambition on paper. That story is
 changing, and for the first time the change can be measured. AfrPowerOS, an open dataset
 that tracks civilian nuclear activity across the continent with every record cited and
-confidence-labelled, now covers 20 countries. One operates a commercial plant. One is
+confidence-labelled, now covers 21 countries. One operates a commercial plant. One is
 building the continent's first new nuclear station in decades. Seven are preparing in
-earnest under the IAEA's phased milestones approach, and ten are exploring.
+earnest under the IAEA's phased milestones approach, and eleven are exploring.
 
 The scale is modest against the world's giants, but the trajectory matters — not least
 because Africa is the continent where nuclear is arriving newest and, in several states,
@@ -122,8 +122,8 @@ Placement: after the "operating reference point" section or near the Egypt secti
 
 **Figure 3 — The continental scoreboard (status overview)**
 File: `graphic-3-status-scoreboard.jpg` / `.png`
-Caption: "The continental scoreboard: 20 African countries by program status — one
-operating (South Africa), one under construction (Egypt), seven preparing, ten exploring."
+Caption: "The continental scoreboard: 21 African countries by program status — one
+operating (South Africa), one under construction (Egypt), seven preparing, eleven exploring."
 Credit: AfrPowerOS open dataset; figures by the author.
 Placement: near the opening, as a lede graphic to set the scene.
 

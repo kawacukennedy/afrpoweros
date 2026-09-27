@@ -8,17 +8,17 @@ Pastable news brief for Dan Yurman. All facts taken from `data/afrpoweros.json`
 **Headline suggestion:** "Africa's nuclear buildout, by the numbers"
 
 **Nut graf:** AfrPowerOS, an open dataset tracking every African country's civilian
-nuclear program, now covers 20 countries — every record cited and confidence-labelled.
+nuclear program, now covers 21 countries — every record cited and confidence-labelled.
 The picture: one country operating, one building Africa's first new nuclear plant in
-decades, seven preparing, ten exploring.
+decades, seven preparing, eleven exploring.
 
 ---
 
-## Top-line numbers (20 countries)
+## Top-line numbers (21 countries)
 
 | Status | Count |
 |---|---|
-| Exploring | 10 |
+| Exploring | 11 |
 | Preparing (IAEA Phase 2) | 7 |
 | Under construction (Phase 3) | 1 |
 | Operating (Phase 3) | 1 |
@@ -77,4 +77,4 @@ Only South Africa operates a commercial NPP in Africa today (Koeberg).
 - Option 2 (deeper piece): offer full JSON+CSV, methodology (docs/methodology.md),
   schema (data/schema.json), and Q&A on any record.
 - Option 3 (lightest): one-line reading-list pointer, e.g. "AfrPowerOS — cited, open
-  dataset on civilian nuclear programs across 20 African countries: github.com/kawacukennedy/afrpoweros".
+  dataset on civilian nuclear programs across 21 African countries: github.com/kawacukennedy/afrpoweros".

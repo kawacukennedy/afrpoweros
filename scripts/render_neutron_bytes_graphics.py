@@ -118,7 +118,7 @@ ax.set_ylim(-0.5, 4.5)
 ax.set_xlabel("Number of countries")
 ax.spines[["top", "right"]].set_visible(False)
 ax.grid(axis="x", linestyle=":", alpha=0.4)
-ax.set_title("The continental scoreboard — 20 African countries by program status", fontsize=12)
+ax.set_title("The continental scoreboard — 21 African countries by program status", fontsize=12)
 fig.text(0.01, 0.02, "Source: AfrPowerOS open dataset (data/afrpoweros.json), verified 2026-08-16. "
                      "Credit: AfrPowerOS — open, cited data on Africa's civilian nuclear programs. CC BY 4.0.",
          fontsize=7, color="#444")

@@ -34,9 +34,9 @@ and preparing-tier sections, as a visual bridge.
 Figure 3 — graphic-3-status-scoreboard.png
 ====================================================================
 CAPTION
-The continental scoreboard: 20 African countries by civilian nuclear
+The continental scoreboard: 21 African countries by civilian nuclear
 program status — one operating (South Africa), one under construction
-(Egypt), seven preparing, ten exploring, and DR Congo with research
+(Egypt), seven preparing, eleven exploring, and DR Congo with research
 applications only.
 
 PLACEMENT
